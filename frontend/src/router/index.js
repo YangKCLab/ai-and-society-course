@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { normalizeVersion } from '../composables/useVersion'
 
 import HomeWrapper from '../wrappers/HomeWrapper.vue'
-import Resources from '../pages/Resources.vue'
 import Staff from '../pages/Staff.vue'
 
 // Load version config to determine active version
@@ -35,7 +34,6 @@ export const router = createRouter({
       path: '/:version',
       children: [
         { path: '', name: 'home', component: HomeWrapper },
-        { path: 'resources', name: 'resources', component: Resources },
         { path: 'staff', name: 'staff', component: Staff },
       ],
     },
