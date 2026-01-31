@@ -56,7 +56,7 @@ const navigation = computed(() => {
       <nav id="navbarNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li v-if="navigation.home" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/`">Home</RouterLink></li>
-          <li v-if="navigation.schedule" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/schedule`">Schedule</RouterLink></li>
+          <li v-if="navigation.schedule" class="nav-item"><a class="nav-link" href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a></li>
           <li v-if="navigation.resources" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/resources`">Resources</RouterLink></li>
           <li v-if="navigation.staff" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/staff`">Staff</RouterLink></li>
           <li v-if="versions.length > 1" class="nav-item dropdown">
