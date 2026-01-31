@@ -15,157 +15,96 @@
       ]
     },
     {
-      "title": "Interactive Demonstrations",
-      "description": "Examples and tutorials for social media data collection",
+      "title": "AI and LLM Resources",
+      "description": "Tools and resources for working with AI systems",
       "resources": [
         {
-          "title": "Snowball Sampling Demo",
-          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/snowball-sampling"
+          "title": "ChatGPT",
+          "description": "OpenAI's conversational AI assistant",
+          "href": "https://chat.openai.com/"
         },
         {
-          "title": "BlueSky API demos",
-          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/bluesky"
+          "title": "Claude",
+          "description": "Anthropic's AI assistant",
+          "href": "https://claude.ai/"
         },
         {
-          "title": "4chan API demos",
-          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/4chan"
+          "title": "Gemini",
+          "description": "Google's AI assistant",
+          "href": "https://gemini.google.com/"
         },
         {
-          "title": "YouTube API demos",
-          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/youtube"
+          "title": "Hugging Face",
+          "description": "Platform for open-source AI models and datasets",
+          "href": "https://huggingface.co/"
+        },
+        {
+          "title": "OpenAI API Documentation",
+          "description": "Documentation for OpenAI's API",
+          "href": "https://platform.openai.com/docs/"
+        },
+        {
+          "title": "Anthropic API Documentation",
+          "description": "Documentation for Anthropic's API",
+          "href": "https://docs.anthropic.com/"
         }
       ]
     },
     {
-      "title": "Databases",
-      "description": "Useful resources and tools for working with databases",
+      "title": "AI Safety and Ethics Resources",
+      "description": "Resources on AI safety, ethics, and governance",
       "resources": [
         {
-          "title": "PostgreSQL Documentation",
-          "href": "https://www.postgresql.org/docs/current/"
+          "title": "AI Alignment Forum",
+          "description": "Discussion forum on AI alignment research",
+          "href": "https://www.alignmentforum.org/"
         },
         {
-          "title": "psycopg3 Documentation",
-          "href": "https://www.psycopg.org/psycopg3/docs/"
+          "title": "Center for AI Safety",
+          "description": "Research organization focused on AI safety",
+          "href": "https://www.safe.ai/"
+        },
+        {
+          "title": "Partnership on AI",
+          "description": "Multi-stakeholder organization on responsible AI",
+          "href": "https://partnershiponai.org/"
+        },
+        {
+          "title": "AI Now Institute",
+          "description": "Research institute studying AI's social implications",
+          "href": "https://ainowinstitute.org/"
+        },
+        {
+          "title": "Stanford HAI",
+          "description": "Stanford Human-Centered AI Institute",
+          "href": "https://hai.stanford.edu/"
         }
       ]
     },
     {
       "title": "Text Analysis Tools",
-      "description": "Useful tools for analyzing textual social media data",
+      "description": "Useful tools for analyzing text data",
       "resources": [
-        {
-          "title": "VADER Sentiment",
-          "description": "Python library for sentiment analysis",
-          "href": "https://github.com/cjhutto/vaderSentiment"
-        },
-        {
-          "title": "vMFD",
-          "description": "Python library for moral foundation analysis",
-          "href": "https://github.com/ZeningDuan/vMFD"
-        },
         {
           "title": "spaCy",
           "description": "Python library for natural language processing",
           "href": "https://spacy.io/"
         },
         {
-          "title": "Gensim",
-          "description": "Python library for topic modeling",
-          "href": "https://radimrehurek.com/gensim"
+          "title": "NLTK",
+          "description": "Natural Language Toolkit for Python",
+          "href": "https://www.nltk.org/"
         },
         {
-          "title": "BERTopic",
-          "description": "Python library for topic modeling",
-          "href": "https://maartengr.github.io/BERTopic/index.html"
-        },
-        {
-          "title": "Perspective API",
-          "description": "API for content moderation",
-          "href": "https://www.perspectiveapi.com/"
-        },
-        {
-          "title": "Moderate Hate Speech",
-          "description": "API for hate speech detection",
-          "href": "https://moderatehatespeech.com"
-        },
-        {
-          "title": "OpenAI Moderation API",
-          "description": "API for content moderation",
-          "href": "https://platform.openai.com/docs/guides/moderation"
-        },
-        {
-          "title": "langdetect",
-          "description": "Python library for language detection",
-          "href": "https://github.com/Mimino666/langdetect"
-        }
-      ]
-    },
-    {
-      "title": "URLs and Domains",
-      "description": "Useful resources and tools for working with URLs and domains",
-      "resources": [
-        {
-          "title": "URLExtract",
-          "description": "Python library for extracting URLs and domains from text",
-          "href": "https://github.com/lipoja/URLExtract"
-        },
-        {
-          "title": "List of news domains",
-          "description": "A list of news domains",
-          "href": "https://github.com/yang3kc/list_of_news_domains"
-        },
-        {
-          "title": "Domain quality ratings",
-          "href": "https://github.com/hauselin/domain-quality-ratings",
-          "description": "A list of domains and their quality ratings"
-        },
-        {
-          "title": "DomainDemo dataset",
-          "description": "A dataset of five metrics that describe the audience demographics of different domains",
-          "href": "https://github.com/LazerLab/DomainDemo"
-        }
-      ]
-    },
-    {
-      "title": "Network Science Tools and Resources",
-      "description": "Tools and libraries for network analysis and visualization",
-      "resources": [
-        {
-          "title": "Network Science Book",
-          "description": "Free online textbook on network science by Albert-László Barabási",
-          "href": "https://networksciencebook.com/"
-        },
-        {
-          "title": "NetworkX",
-          "description": "Python library for network analysis and graph algorithms",
-          "href": "https://networkx.org/"
-        },
-        {
-          "title": "igraph",
-          "description": "Fast network analysis library for Python, R, and C",
-          "href": "https://igraph.org/"
-        },
-        {
-          "title": "graph-tool",
-          "description": "Efficient Python library for network analysis with C++ backend",
-          "href": "https://graph-tool.skewed.de/"
-        },
-        {
-          "title": "Gephi",
-          "description": "Software for visualizing and exploring network data",
-          "href": "https://gephi.org/"
-        },
-        {
-          "title": "Helios Web",
-          "description": "Interactive web-based network visualization tool",
-          "href": "https://github.com/filipinascimento/helios-web/"
+          "title": "Hugging Face Transformers",
+          "description": "State-of-the-art NLP models",
+          "href": "https://huggingface.co/docs/transformers/"
         }
       ]
     },
     {
       "title": "Data Visualization Tools and Resources",
-      "description": "Useful tools for visualizing social media data",
+      "description": "Useful tools for visualizing data",
       "resources": [
         {
           "title": "Matplotlib",
@@ -174,49 +113,24 @@
         },
         {
           "title": "Seaborn",
-          "description": "Python library for creating static plots",
+          "description": "Python library for statistical data visualization",
           "href": "https://seaborn.pydata.org/"
         },
         {
           "title": "Plotly",
-          "description": "Python library for creating interactive and web-based plots",
+          "description": "Python library for creating interactive plots",
           "href": "https://plotly.com/python/"
-        },
-        {
-          "title": "Word cloud",
-          "description": "A tool for creating word clouds",
-          "href": "https://github.com/amueller/word_cloud"
-        },
-        {
-          "title": "Streamlit",
-          "description": "Python library for creating interactive and web-based applications",
-          "href": "https://streamlit.io/"
         },
         {
           "title": "Python Graph Gallery",
           "description": "A collection of examples for data visualization with Python",
           "href": "https://python-graph-gallery.com/"
-        },
-        {
-          "title": "Contrast Checker",
-          "description": "A tool for checking the contrast of text and background colors",
-          "href": "https://webaim.org/resources/contrastchecker/"
-        },
-        {
-          "title": "Scicolor",
-          "description": "A collection of color palettes for scientific data visualization",
-          "href": "https://yang3kc.github.io/scicolor/"
-        },
-        {
-          "title": "Scicolor on PyPI",
-          "description": "A Python library for selecting color palettes for scientific data visualization",
-          "href": "https://pypi.org/project/scicolor/"
         }
       ]
     },
     {
       "title": "Statistics",
-      "description": "Useful resources for running statistical tests",
+      "description": "Useful resources for statistical analysis",
       "resources": [
         {
           "title": "Scipy",

@@ -41,7 +41,7 @@ const navigation = computed(() => {
 <template>
   <header class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-4">
     <div class="container">
-      <RouterLink class="navbar-brand fw-semibold" :to="`/${currentVersion}/`">CS 415/515 — Social Media Data Science</RouterLink>
+      <RouterLink class="navbar-brand fw-semibold" :to="`/${currentVersion}/`">CS 481E/581E — AI and Society</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
