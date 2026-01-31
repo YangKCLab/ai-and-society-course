@@ -7,8 +7,8 @@ import { fileURLToPath } from 'url'
 // https://vite.dev/config/
 export default defineConfig({
   // Set base for GitHub Pages project site
-  // https://yangkclab.github.io/social-media-ds-course/
-  base: '/social-media-ds-course/',
+  // https://yangkclab.github.io/ai-and-society-course/
+  base: '/ai-and-society-course/',
 
   resolve: {
     alias: {

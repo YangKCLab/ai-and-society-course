@@ -36,7 +36,7 @@ make copy-syllabus VERSION=Fall2025      # Copy compiled syllabus PDF
 
 ### Key Constants
 - Default version is hardcoded in `useVersion.js` (keep in sync with `versions/config.json`)
-- GitHub Pages base path: `/social-media-ds-course/`
+- GitHub Pages base path: `/ai-and-society-course/`
 
 ## Adding a New Semester
 

@@ -16,7 +16,7 @@ The repository is organized to support multiple semester iterations:
 
 ### View the Course Website
 
-Visit: https://yangkclab.github.io/social-media-ds-course/
+Visit: https://yangkclab.github.io/ai-and-society-course/
 
 ### Development
 
