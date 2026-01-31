@@ -6,11 +6,11 @@
       "resources": [
         {
           "title": "Syllabus (PDF)",
-          "href": "https://github.com/YangKCLab/social-media-ds-course/tree/main/syllabus"
+          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/syllabus"
         },
         {
           "title": "Course GitHub repo",
-          "href": "https://github.com/YangKCLab/social-media-ds-course"
+          "href": "https://github.com/YangKCLab/ai-and-society-course"
         }
       ]
     },
@@ -20,19 +20,19 @@
       "resources": [
         {
           "title": "Snowball Sampling Demo",
-          "href": "https://github.com/YangKCLab/social-media-ds-course/tree/main/demos/snowball-sampling"
+          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/snowball-sampling"
         },
         {
           "title": "BlueSky API demos",
-          "href": "https://github.com/YangKCLab/social-media-ds-course/tree/main/demos/bluesky"
+          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/bluesky"
         },
         {
           "title": "4chan API demos",
-          "href": "https://github.com/YangKCLab/social-media-ds-course/tree/main/demos/4chan"
+          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/4chan"
         },
         {
           "title": "YouTube API demos",
-          "href": "https://github.com/YangKCLab/social-media-ds-course/tree/main/demos/youtube"
+          "href": "https://github.com/YangKCLab/ai-and-society-course/tree/main/demos/youtube"
         }
       ]
     },

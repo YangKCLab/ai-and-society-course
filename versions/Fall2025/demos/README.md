@@ -17,7 +17,7 @@ Before running any demos, set up the Python environment:
 
 ```bash
 # Navigate to the project root
-cd /path/to/social-media-ds-course
+cd /path/to/ai-and-society-course
 
 # Install dependencies and create virtual environment
 uv sync

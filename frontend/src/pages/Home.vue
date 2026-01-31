@@ -173,7 +173,7 @@ onMounted(async () => {
       <hr />
       <div>Last updated {{ new Date().toLocaleDateString() }}.</div>
       <div>
-        Source on <a href="https://github.com/YangKCLab/social-media-ds-course" target="_blank" rel="noopener">GitHub</a>.
+        Source on <a href="https://github.com/YangKCLab/ai-and-society-course" target="_blank" rel="noopener">GitHub</a>.
       </div>
     </footer>
   </main>
