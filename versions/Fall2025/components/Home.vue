@@ -18,9 +18,9 @@ onMounted(async () => {
     console.error('Failed to load home data:', error)
     homeData.value = {
       semester: 'Fall 2025',
-      classTime: 'TBD',
-      location: 'TBD',
-      grading: { quizzes: 15, projects: 75, demo: 10 },
+      classTime: 'Monday & Wednesday 5:00pm-6:30pm',
+      location: 'Academic Building A, Room G023',
+      grading: { participation: 50, project: 40, essay: 10 },
       gradingScale: { A: '100–90', B: '89–80', C: '79–70', D: '69–60', F: '59–0' }
     }
   }
@@ -30,12 +30,12 @@ onMounted(async () => {
 <template>
   <main class="container pb-5">
     <section class="mb-4">
-      <h1 class="display-6">CS 415/515 Social Media Data Science Pipelines</h1>
+      <h1 class="display-6">CS 481E/581E AI and Society</h1>
       <p class="lead" id="description">
-        The focus of this course is on applying data science techniques to large-scale social media.
-        Topics include data collection and management, exploratory analysis and measurement techniques,
-        data visualization, hypothesis testing and statistical modeling, and real-time analytics. Students
-        will build an end-to-end pipeline and use it to answer questions about online events as they occur.
+        This course examines the transformative impact of artificial intelligence—particularly large language models (LLMs)—on society.
+        Through seminar discussions, research paper readings, and hands-on projects, students will explore how AI systems
+        are reshaping labor markets, education, scientific research, healthcare, information ecosystems, and governance.
+        The course emphasizes critical analysis of both the opportunities and challenges posed by AI technologies.
       </p>
     </section>
 
@@ -60,11 +60,11 @@ onMounted(async () => {
         Upon successful completion of this course, you will be able to:
       </p>
       <ul>
-        <li>Build a continuous data system for social media.</li>
-        <li>Manage collected data.</li>
-        <li>Design and execute various measurements on social media.</li>
-        <li>Model and analyze online behavior via social media.</li>
-        <li>Create visualizations that help understand social media phenomena.</li>
+        <li>Understand the technical foundations of modern AI systems, particularly large language models.</li>
+        <li>Critically analyze AI's impact across different sectors of society.</li>
+        <li>Evaluate ethical considerations and governance challenges in AI deployment.</li>
+        <li>Engage with current research literature on AI and society.</li>
+        <li>Conduct independent research on AI-related societal issues.</li>
       </ul>
     </section>
 
@@ -89,35 +89,34 @@ onMounted(async () => {
 
     <section class="mb-5">
       <h3 id="materials">Course Materials</h3>
-      <p>
-        There is no textbook for this course.
-        Lectures and selected research papers form the core materials.
-        Paper reading assignments and other course materials will be made available via Brightspace.
-      </p>
+      <p>There is no textbook for this course.</p>
+
+      <p>Reading assignments (research papers and articles) will be made available on the <a href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a>.</p>
+
+      <p>Slides and other course materials will be made available via Brightspace.</p>
     </section>
 
     <section class="mb-5">
       <h3>Course Format and Topics</h3>
       <p>
-        This class combines lectures with research paper reading and discussions. The lectures cover
-        the fundamentals of data science on social media. Reading materials are recent research papers
-        aligned with lecture topics.
+        This seminar-style course combines brief lectures with extensive discussion of research papers and current events.
+        Students will actively participate in discussions and present papers to the class.
 
-        Please refer to <router-link :to="`/${currentVersion}/schedule`">Schedule</router-link> for the detailed lecture topics and reading materials.
+        Please refer to the <a href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a> for the detailed topics and reading materials.
       </p>
       <div class="row g-3">
         <div class="col-md-6">
           <div class="card h-100">
             <div class="card-body">
-              <h6 class="card-title">Lecture Topics</h6>
+              <h6 class="card-title">Seminar Topics</h6>
               <ul class="mb-0">
-                <li>What is Data Science and what does social media have to do with it?</li>
-                <li>Data collection</li>
-                <li>Social media data formats</li>
-                <li>Data management with RDBMS/NoSQL</li>
-                <li>Probability and statistics; hypothesis testing</li>
-                <li>Applications of Machine Learning</li>
-                <li>Visualization</li>
+                <li>Introduction to LLMs and AI foundations</li>
+                <li>AI and labor markets</li>
+                <li>AI in education</li>
+                <li>AI in scientific research</li>
+                <li>AI in healthcare</li>
+                <li>AI and information ecosystems</li>
+                <li>AI governance and ethics</li>
               </ul>
             </div>
           </div>
@@ -125,13 +124,13 @@ onMounted(async () => {
         <div class="col-md-6">
           <div class="card h-100">
             <div class="card-body">
-              <h6 class="card-title">Reading Topics</h6>
+              <h6 class="card-title">Key Themes</h6>
               <ul class="mb-0">
-                <li>Dataset and data collection</li>
-                <li>Algorithmic bias</li>
-                <li>Inauthentic behaviors</li>
-                <li>Ethics and data access</li>
-                <li>Generative AI and social media</li>
+                <li>Capabilities and limitations of AI systems</li>
+                <li>Societal benefits and risks</li>
+                <li>Bias, fairness, and accountability</li>
+                <li>Privacy and security concerns</li>
+                <li>Policy and regulatory frameworks</li>
               </ul>
             </div>
           </div>
@@ -142,19 +141,18 @@ onMounted(async () => {
     <section class="mb-5">
       <h3>Prerequisites</h3>
       <ul>
-        <li>CS 350 Operating Systems</li>
-        <li>CS 375 Design & Analysis of Algorithms</li>
-        <li>MATH 327 Probability with Statistical Methods or equivalent</li>
-        <li>Proficiency in at least one programming language</li>
+        <li>CS 436/536 Introduction to Machine Learning, or</li>
+        <li>CS 465/565 Introduction to Artificial Intelligence</li>
+        <li>Familiarity with Python programming</li>
       </ul>
     </section>
 
     <section v-if="homeData" class="mb-5">
       <h3 id="grading">Method of Assessment</h3>
       <ul>
-        <li>Paper reading quizzes: {{ homeData.grading.quizzes }}%</li>
-        <li>Three programming projects: {{ homeData.grading.projects }}% (evenly split)</li>
-        <li>Final demonstration: {{ homeData.grading.demo }}%</li>
+        <li>Participation (discussions and presentations): {{ homeData.grading.participation }}%</li>
+        <li>Course project: {{ homeData.grading.project }}%</li>
+        <li>Final essay: {{ homeData.grading.essay }}%</li>
       </ul>
       <h4 class="mt-3">Grading Scale</h4>
       <ul>

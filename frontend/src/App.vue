@@ -41,7 +41,7 @@ const navigation = computed(() => {
 <template>
   <header class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-4">
     <div class="container">
-      <RouterLink class="navbar-brand fw-semibold" :to="`/${currentVersion}/`">CS 415/515 — Social Media Data Science</RouterLink>
+      <RouterLink class="navbar-brand fw-semibold" :to="`/${currentVersion}/`">CS 481E/581E — AI and Society</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,8 +56,7 @@ const navigation = computed(() => {
       <nav id="navbarNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li v-if="navigation.home" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/`">Home</RouterLink></li>
-          <li v-if="navigation.schedule" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/schedule`">Schedule</RouterLink></li>
-          <li v-if="navigation.resources" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/resources`">Resources</RouterLink></li>
+          <li v-if="navigation.schedule" class="nav-item"><a class="nav-link" href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a></li>
           <li v-if="navigation.staff" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/staff`">Staff</RouterLink></li>
           <li v-if="versions.length > 1" class="nav-item dropdown">
             <a

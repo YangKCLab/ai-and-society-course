@@ -1,11 +1,11 @@
 {
   "semester": "Fall 2025",
-  "classTime": "Tuesdays & Thursdays 9:45am-11:15am",
-  "location": "Classroom Wing (CW) 110",
+  "classTime": "Monday & Wednesday 5:00pm-6:30pm",
+  "location": "Academic Building A, Room G023",
   "grading": {
-    "quizzes": 15,
-    "projects": 75,
-    "demo": 10
+    "participation": 50,
+    "project": 40,
+    "essay": 10
   },
   "gradingScale": {
     "A": "100–90",
