@@ -32,6 +32,7 @@ const navigation = computed(() => {
   return currentVersionConfig.value.navigation || {
     home: true,
     schedule: true,
+    readings: true,
     resources: true,
     staff: true
   }
@@ -57,6 +58,7 @@ const navigation = computed(() => {
         <ul class="navbar-nav ms-auto">
           <li v-if="navigation.home" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/`">Home</RouterLink></li>
           <li v-if="navigation.schedule" class="nav-item"><a class="nav-link" href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a></li>
+          <li v-if="navigation.readings" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/readings`">Readings</RouterLink></li>
           <li v-if="navigation.staff" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/staff`">Staff</RouterLink></li>
           <li v-if="versions.filter(v => v.active).length > 1" class="nav-item dropdown">
             <a

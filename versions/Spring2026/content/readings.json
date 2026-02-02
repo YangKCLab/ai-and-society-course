@@ -1,0 +1,46 @@
+{
+  "topics": [
+    {
+      "id": "ai-foundations",
+      "title": "AI Foundations and LLMs",
+      "description": "Understanding the technical foundations of modern AI systems",
+      "sessions": []
+    },
+    {
+      "id": "ai-labor",
+      "title": "AI and Labor Markets",
+      "description": "How AI is transforming work and employment",
+      "sessions": []
+    },
+    {
+      "id": "ai-education",
+      "title": "AI in Education",
+      "description": "AI's impact on teaching and learning",
+      "sessions": []
+    },
+    {
+      "id": "ai-research",
+      "title": "AI in Scientific Research",
+      "description": "How AI is changing scientific discovery",
+      "sessions": []
+    },
+    {
+      "id": "ai-healthcare",
+      "title": "AI in Healthcare",
+      "description": "Applications and challenges of AI in medicine",
+      "sessions": []
+    },
+    {
+      "id": "ai-information",
+      "title": "AI and Information Ecosystems",
+      "description": "AI's role in content creation and information access",
+      "sessions": []
+    },
+    {
+      "id": "ai-governance",
+      "title": "AI Governance and Ethics",
+      "description": "Policy, regulation, and ethical considerations",
+      "sessions": []
+    }
+  ]
+}
