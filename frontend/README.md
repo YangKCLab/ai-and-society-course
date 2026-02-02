@@ -2,7 +2,7 @@
 
 This directory contains a simple Vue 3 + Vite app for the course website.
 The landing page (`src/App.vue`) is modeled after the AI Agents course template and customized for
-CS 415/515 Social Media Data Science Pipelines.
+CS 481E/581E AI and Society.
 
 ## Scripts
 

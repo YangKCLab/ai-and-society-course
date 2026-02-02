@@ -1,6 +1,6 @@
-# CS 415/515 Social Media Data Science Pipelines
+# CS 481E/581E AI and Society
 
-This repository contains course materials for the CS 415/515 Social Media Data Science Pipelines course, taught by Kai-Cheng Yang at Binghamton University.
+This repository contains course materials for the CS 481E/581E AI and Society course, taught by Kai-Cheng Yang at Binghamton University.
 
 ## Repository Structure
 
