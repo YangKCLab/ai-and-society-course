@@ -1,6 +1,5 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import { RouterLink } from 'vue-router'
 import { useVersion } from '../../../frontend/src/composables/useVersion'
 
 // CUSTOM HOME PAGE TEMPLATE
@@ -25,6 +24,9 @@ const baseUrl = import.meta.env.BASE_URL
 
 // Computed syllabus PDF URL
 const syllabusPdfUrl = computed(() => `${baseUrl}versions/${currentVersion.value}/content/syllabus.pdf`)
+
+// Computed readings page URL
+const readingsUrl = computed(() => `${baseUrl}${currentVersion.value}/readings`)
 
 // Format date without timezone conversion
 const formatDate = (dateStr) => {
@@ -120,7 +122,7 @@ onMounted(async () => {
       <h3 id="materials">Course Materials</h3>
       <p>There is no textbook for this course.</p>
 
-      <p>Reading assignments (research papers and articles) will be made available on the <RouterLink :to="`/${currentVersion}/readings`">Readings</RouterLink> page. See the <a href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a> for due dates.</p>
+      <p>Reading assignments (research papers and articles) will be made available on the <a :href="readingsUrl">Readings</a> page. See the <a href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a> for due dates.</p>
 
       <p>Slides and other course materials will be made available via Brightspace.</p>
     </section>
@@ -131,7 +133,7 @@ onMounted(async () => {
         This seminar-style course combines brief lectures with extensive discussion of research papers and current events.
         Students will actively participate in discussions and present papers to the class.
 
-        Please refer to the <RouterLink :to="`/${currentVersion}/readings`">Readings</RouterLink> page for the detailed topics and reading materials.
+        Please refer to the <a :href="readingsUrl">Readings</a> page for the detailed topics and reading materials.
       </p>
       <div class="row g-3">
         <div class="col-md-6">
