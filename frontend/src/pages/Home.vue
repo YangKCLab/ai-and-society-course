@@ -18,7 +18,7 @@ onMounted(async () => {
     console.error('Failed to load home data:', error)
     // Fallback to defaults
     homeData.value = {
-      semester: 'Fall 2025',
+      semester: 'Spring 2026',
       classTime: 'Monday & Wednesday 5:00pm-6:30pm',
       location: 'Academic Building A, Room G023',
       grading: { participation: 50, project: 40, essay: 10 },

@@ -17,7 +17,7 @@ cd frontend && npm run build  # Build for production
 # Semester management
 make new-semester SEMESTER=Spring2026    # Create new semester from template
 make validate-versions                   # Validate version config (requires uv)
-make copy-syllabus VERSION=Fall2025      # Copy compiled syllabus PDF
+make copy-syllabus VERSION=Spring2026    # Copy compiled syllabus PDF
 ```
 
 ## Architecture
@@ -31,7 +31,7 @@ make copy-syllabus VERSION=Fall2025      # Copy compiled syllabus PDF
 ### Frontend Structure
 - `frontend/src/composables/useVersion.js` - Version-aware data loading; provides `loadVersionData(filename)` and `currentVersion`
 - `frontend/src/wrappers/HomeWrapper.vue` - Async loader for custom vs default Home components
-- `frontend/src/router/` - Dynamic routing with version param (e.g., `/Fall2025/schedule`)
+- `frontend/src/router/` - Dynamic routing with version param (e.g., `/Spring2026/schedule`)
 - `frontend/vite.config.js` - Custom plugin copies `versions/` to `dist/` during build
 
 ### Key Constants

@@ -49,15 +49,17 @@ onMounted(async () => {
     <section>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Teaching Assistants</h5>
+          <h5 class="card-title">Teaching Assistant(s)</h5>
           <div v-if="!staffData.tas.length || (staffData.tas.length === 1 && !staffData.tas[0].email)" class="text-muted">TAs will be announced soon.</div>
-          <ul v-else class="mb-0">
-            <li v-for="ta in staffData.tas" :key="ta.name">
-              <strong>{{ ta.name }}</strong>
-              <template v-if="ta.email"> — <a :href="`mailto:${ta.email}`">{{ ta.email }}</a></template>
-              <template v-if="ta.officeHours"> — Office Hours: {{ ta.officeHours }}</template>
-            </li>
-          </ul>
+          <template v-else>
+            <div v-for="(ta, index) in staffData.tas" :key="ta.name" :class="{ 'mt-3': index > 0 }">
+              <ul class="mb-0">
+                <li><strong>{{ ta.name }}</strong></li>
+                <li v-if="ta.email">Email: <a :href="`mailto:${ta.email}`">{{ ta.email }}</a></li>
+                <li v-if="ta.officeHours">Office Hours: {{ ta.officeHours }}</li>
+              </ul>
+            </div>
+          </template>
         </div>
       </div>
     </section>

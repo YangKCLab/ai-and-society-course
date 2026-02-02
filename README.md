@@ -53,7 +53,7 @@ Each semester has its own directory under `versions/` containing:
 - `content/` - JSON data files and syllabus PDF
 - `demos/` - Jupyter notebook demonstrations
 
-The website automatically routes to version-specific content (e.g., `/Fall2025/`, `/Spring2026/`).
+The website automatically routes to version-specific content (e.g., `/Spring2026/`, `/Fall2026/`).
 
 See [`versions/README.md`](versions/README.md) for detailed instructions on managing semester versions.
 

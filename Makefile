@@ -2,7 +2,7 @@
 copy-syllabus:
 ifndef VERSION
 	@echo "Error: VERSION not specified"
-	@echo "Usage: make copy-syllabus VERSION=Fall2025"
+	@echo "Usage: make copy-syllabus VERSION=Spring2026"
 	@exit 1
 endif
 	@echo "Copying syllabus PDF to versions/$(VERSION)/content/..."
@@ -39,6 +39,6 @@ help:
 	@echo "  validate-versions                - Validate version configuration"
 	@echo ""
 	@echo "Examples:"
-	@echo "  make copy-syllabus VERSION=Fall2025"
+	@echo "  make copy-syllabus VERSION=Spring2026"
 	@echo "  make new-semester SEMESTER=Spring2026"
 	@echo "  make build-frontend"

@@ -7,7 +7,7 @@ This directory contains semester-specific course content. Each semester has its 
 ```
 versions/
 ├── config.json              # Version registry and default version
-├── Fall2025/                # Example semester
+├── Spring2026/              # Example semester
 │   ├── content/
 │   │   ├── schedule.json    # Course schedule
 │   │   ├── resources.json   # Course resources
@@ -176,7 +176,7 @@ If no custom component is provided, the semester will use the shared default Hom
 4. **Access version-specific content**:
    Custom components automatically have access to:
    - `loadVersionData(filename)` - Load JSON files from `versions/{version}/content/`
-   - `currentVersion` - The current version ID (e.g., 'Fall2025')
+   - `currentVersion` - The current version ID (e.g., 'Spring2026')
    - All standard Vue 3 features and Bootstrap 5 styling
 
 ### Example Use Cases

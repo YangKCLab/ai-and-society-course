@@ -11,13 +11,20 @@ const baseUrl = import.meta.env.BASE_URL
 // Computed syllabus PDF URL
 const syllabusPdfUrl = computed(() => `${baseUrl}versions/${currentVersion.value}/content/syllabus.pdf`)
 
+// Format date without timezone conversion
+const formatDate = (dateStr) => {
+  if (!dateStr) return ''
+  const [year, month, day] = dateStr.split('-')
+  return `${parseInt(month)}/${parseInt(day)}/${year}`
+}
+
 onMounted(async () => {
   try {
     homeData.value = await loadVersionData('home.json')
   } catch (error) {
     console.error('Failed to load home data:', error)
     homeData.value = {
-      semester: 'Fall 2025',
+      semester: 'Spring 2026',
       classTime: 'Monday & Wednesday 5:00pm-6:30pm',
       location: 'Academic Building A, Room G023',
       grading: { participation: 50, project: 40, essay: 10 },
@@ -80,6 +87,9 @@ onMounted(async () => {
         >
           View Syllabus
         </a>
+        <span v-if="homeData?.syllabusLastUpdated" class="text-muted ms-2">
+          (Last updated: {{ formatDate(homeData.syllabusLastUpdated) }})
+        </span>
       </p>
       <p>
         The syllabus is subject to change, so please check it regularly for updates.
