@@ -1,13 +1,13 @@
 {
-  "defaultVersion": "Fall2025",
+  "defaultVersion": "Spring2026",
   "versions": [
     {
-      "id": "Fall2025",
-      "displayName": "Fall 2025",
-      "path": "Fall2025",
+      "id": "Spring2026",
+      "displayName": "Spring 2026",
+      "path": "Spring2026",
       "active": true,
-      "semester": "Fall",
-      "year": 2025,
+      "semester": "Spring",
+      "year": 2026,
       "navigation": {
         "home": true,
         "schedule": true,

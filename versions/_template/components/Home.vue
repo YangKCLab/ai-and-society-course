@@ -8,7 +8,7 @@ import { useVersion } from '../../../frontend/src/composables/useVersion'
 //
 // The useVersion composable provides:
 // - loadVersionData(filename): Load version-specific JSON files
-// - currentVersion: The current version ID (e.g., 'Fall2025')
+// - currentVersion: The current version ID (e.g., 'Spring2026')
 //
 // You can customize:
 // - Layout and structure

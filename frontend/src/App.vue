@@ -16,7 +16,7 @@ onMounted(async () => {
   }
 })
 
-const currentVersion = computed(() => route.params.version || 'Fall2025')
+const currentVersion = computed(() => route.params.version || 'Spring2026')
 
 // Get current version config
 const currentVersionConfig = computed(() => {
