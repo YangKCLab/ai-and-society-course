@@ -49,7 +49,7 @@ onMounted(async () => {
     <section>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Teaching Assistants</h5>
+          <h5 class="card-title">Teaching Assistant(s)</h5>
           <div v-if="!staffData.tas.length || (staffData.tas.length === 1 && !staffData.tas[0].email)" class="text-muted">TAs will be announced soon.</div>
           <template v-else>
             <div v-for="(ta, index) in staffData.tas" :key="ta.name" :class="{ 'mt-3': index > 0 }">
