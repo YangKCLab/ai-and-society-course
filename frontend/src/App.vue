@@ -58,7 +58,7 @@ const navigation = computed(() => {
           <li v-if="navigation.home" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/`">Home</RouterLink></li>
           <li v-if="navigation.schedule" class="nav-item"><a class="nav-link" href="https://docs.google.com/spreadsheets/d/1AMe7DZp6VKG5EYCbvVe6EJGatuYZ7ehWqhz93GR6FhE" target="_blank" rel="noopener">Schedule</a></li>
           <li v-if="navigation.staff" class="nav-item"><RouterLink class="nav-link" :to="`/${currentVersion}/staff`">Staff</RouterLink></li>
-          <li v-if="versions.length > 1" class="nav-item dropdown">
+          <li v-if="versions.filter(v => v.active).length > 1" class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -69,7 +69,7 @@ const navigation = computed(() => {
               {{ versions.find(v => v.id === currentVersion)?.displayName || currentVersion }}
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li v-for="version in versions" :key="version.id">
+              <li v-for="version in versions.filter(v => v.active)" :key="version.id">
                 <RouterLink
                   class="dropdown-item"
                   :class="{ active: version.id === currentVersion }"
