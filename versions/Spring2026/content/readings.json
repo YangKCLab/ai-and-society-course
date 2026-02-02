@@ -32,6 +32,38 @@
               "url": "https://doi.org/10.1038/d41586-025-03363-3"
             }
           ]
+        },
+        {
+          "id": "ai-social-science",
+          "title": "AI & Social Science",
+          "core": [
+            {
+              "title": "Can Generative AI improve social science?",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2314021121"
+            },
+            {
+              "title": "AI for Social Science and Social Science of AI: A Survey",
+              "url": "https://arxiv.org/abs/2401.11839"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "GPT is an effective tool for multilingual psychological text analysis",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2308950121"
+            },
+            {
+              "title": "Can Large Language Models Transform Computational Social Science?",
+              "url": "https://direct.mit.edu/coli/article/50/1/237/118498"
+            },
+            {
+              "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
+              "url": "https://journals.sagepub.com/doi/full/10.1177/08944393241286471"
+            },
+            {
+              "title": "The potential existential threat of large language models to online survey research",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2518075122"
+            }
+          ]
         }
       ]
     },
