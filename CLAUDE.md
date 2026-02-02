@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Vue 3 + Vite course website for CS 415/515 "Social Media Data Science Pipelines" at Binghamton University. The site supports multiple semester versions with isolated content per semester.
+This is a Vue 3 + Vite course website for CS 481E/581E "AI and Society" at Binghamton University. The site supports multiple semester versions with isolated content per semester.
 
 ## Common Commands
 
@@ -23,15 +23,15 @@ make copy-syllabus VERSION=Spring2026    # Copy compiled syllabus PDF
 ## Architecture
 
 ### Version System
-- `versions/config.json` - Registry of all semesters with default, active status, and per-version navigation settings
-- `versions/{Semester}/content/` - JSON data files (schedule.json, staff.json, resources.json, home.json, syllabus.pdf)
+- `versions/config.json` - Registry of all semesters with default, active status, and per-version navigation settings (home, schedule, readings, resources, staff)
+- `versions/{Semester}/content/` - JSON data files (home.json, staff.json, readings.json, syllabus.pdf)
 - `versions/{Semester}/components/Home.vue` - Optional custom home page (falls back to shared component if absent)
 - `versions/{Semester}/demos/` - Jupyter notebooks
 
 ### Frontend Structure
 - `frontend/src/composables/useVersion.js` - Version-aware data loading; provides `loadVersionData(filename)` and `currentVersion`
 - `frontend/src/wrappers/HomeWrapper.vue` - Async loader for custom vs default Home components
-- `frontend/src/router/` - Dynamic routing with version param (e.g., `/Spring2026/schedule`)
+- `frontend/src/router/` - Dynamic routing with version param (e.g., `/Spring2026/readings`)
 - `frontend/vite.config.js` - Custom plugin copies `versions/` to `dist/` during build
 
 ### Key Constants

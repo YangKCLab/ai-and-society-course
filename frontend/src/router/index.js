@@ -3,6 +3,7 @@ import { normalizeVersion } from '../composables/useVersion'
 
 import HomeWrapper from '../wrappers/HomeWrapper.vue'
 import Staff from '../pages/Staff.vue'
+import Readings from '../pages/Readings.vue'
 
 // Load version config to determine active version
 let configPromise = null
@@ -35,6 +36,7 @@ export const router = createRouter({
       children: [
         { path: '', name: 'home', component: HomeWrapper },
         { path: 'staff', name: 'staff', component: Staff },
+        { path: 'readings', name: 'readings', component: Readings },
       ],
     },
   ],

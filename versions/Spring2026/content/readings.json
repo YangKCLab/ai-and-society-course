@@ -1,0 +1,107 @@
+{
+  "topics": [
+    {
+      "id": "science",
+      "title": "AI & Science",
+      "description": "Understanding the role of AI in scientific research",
+      "sessions": [
+        {
+          "id": "science-production",
+          "title": "AI & Science Production",
+          "core": [
+            {
+              "title": "Artificial intelligence tools expand scientists' impact but contract science's focus",
+              "url": "https://doi.org/10.1038/s41586-025-09922-y"
+            },
+            {
+              "title": "Scientific production in the era of large language models",
+              "url": "https://doi.org/10.1126/science.adw3000"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "AI chatbots are sycophants — researchers say it's harming science",
+              "url": "https://www.nature.com/articles/d41586-025-03390-0"
+            },
+            {
+              "title": "The Rise of Large Language Models and the Direction and Impact of US Federal Research Funding",
+              "url": "https://arxiv.org/abs/2601.15485"
+            },
+            {
+              "title": "AI bots wrote and reviewed all papers at this conference",
+              "url": "https://doi.org/10.1038/d41586-025-03363-3"
+            }
+          ]
+        },
+        {
+          "id": "ai-social-science",
+          "title": "AI & Social Science",
+          "core": [
+            {
+              "title": "Can Generative AI improve social science?",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2314021121"
+            },
+            {
+              "title": "AI for Social Science and Social Science of AI: A Survey",
+              "url": "https://arxiv.org/abs/2401.11839"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "GPT is an effective tool for multilingual psychological text analysis",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2308950121"
+            },
+            {
+              "title": "Can Large Language Models Transform Computational Social Science?",
+              "url": "https://direct.mit.edu/coli/article/50/1/237/118498"
+            },
+            {
+              "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
+              "url": "https://journals.sagepub.com/doi/full/10.1177/08944393241286471"
+            },
+            {
+              "title": "The potential existential threat of large language models to online survey research",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2518075122"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering",
+      "title": "AI & Software Engineering",
+      "description": "How AI is transforming software engineering",
+      "sessions": []
+    },
+    {
+      "id": "labor-market",
+      "title": "AI & Labor Market",
+      "description": "AI's impact on labor market",
+      "sessions": []
+    },
+    {
+      "id": "education",
+      "title": "AI & Education",
+      "description": "How AI is changing education",
+      "sessions": []
+    },
+    {
+      "id": "healthcare",
+      "title": "AI & Healthcare",
+      "description": "Applications and challenges of AI in healthcare",
+      "sessions": []
+    },
+    {
+      "id": "information-ecosystems",
+      "title": "AI & Information Ecosystems",
+      "description": "AI's role in content creation and information access",
+      "sessions": []
+    },
+    {
+      "id": "governance-ethics",
+      "title": "AI & Governance & Ethics",
+      "description": "Policy, regulation, and ethical considerations of AI",
+      "sessions": []
+    }
+  ]
+}
