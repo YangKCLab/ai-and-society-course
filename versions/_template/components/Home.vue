@@ -25,6 +25,13 @@ const baseUrl = import.meta.env.BASE_URL
 // Computed syllabus PDF URL
 const syllabusPdfUrl = computed(() => `${baseUrl}versions/${currentVersion.value}/content/syllabus.pdf`)
 
+// Format date without timezone conversion
+const formatDate = (dateStr) => {
+  if (!dateStr) return ''
+  const [year, month, day] = dateStr.split('-')
+  return `${parseInt(month)}/${parseInt(day)}/${year}`
+}
+
 onMounted(async () => {
   try {
     homeData.value = await loadVersionData('home.json')
@@ -98,6 +105,9 @@ onMounted(async () => {
         >
           View Syllabus
         </a>
+        <span v-if="homeData?.syllabusLastUpdated" class="text-muted ms-2">
+          (Last updated: {{ formatDate(homeData.syllabusLastUpdated) }})
+        </span>
       </p>
       <p>
         The syllabus is subject to change, so please check it regularly for updates.
