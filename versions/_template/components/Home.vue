@@ -29,10 +29,9 @@ const syllabusPdfUrl = computed(() => `${baseUrl}versions/${currentVersion.value
 const readingsUrl = computed(() => `${baseUrl}${currentVersion.value}/readings`)
 
 // Format date without timezone conversion
+// Return date as-is (ISO format: YYYY-MM-DD)
 const formatDate = (dateStr) => {
-  if (!dateStr) return ''
-  const [year, month, day] = dateStr.split('-')
-  return `${parseInt(month)}/${parseInt(day)}/${year}`
+  return dateStr || ''
 }
 
 onMounted(async () => {
@@ -197,7 +196,7 @@ onMounted(async () => {
 
     <footer class="text-center text-muted">
       <hr />
-      <div>Last updated {{ new Date().toLocaleDateString() }}.</div>
+      <div>Last updated {{ new Date().toISOString().slice(0, 10) }}.</div>
       <div>
         Source on <a href="https://github.com/YangKCLab/ai-and-society-course" target="_blank" rel="noopener">GitHub</a>.
       </div>
