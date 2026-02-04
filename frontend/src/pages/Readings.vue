@@ -42,8 +42,19 @@ onMounted(async () => {
             <h6 class="text-primary">Core Readings</h6>
             <ul class="mb-0">
               <li v-for="(material, idx) in session.core" :key="idx">
-                <a :href="material.url" target="_blank" rel="noopener">{{ material.title }}</a>
-                <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                <template v-if="material.links && material.links.length">
+                  {{ material.title }}
+                  <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                  <ul class="mb-0 ms-3">
+                    <li v-for="(link, linkIdx) in material.links" :key="linkIdx">
+                      <a :href="link.url" target="_blank" rel="noopener">{{ link.label }}</a>
+                    </li>
+                  </ul>
+                </template>
+                <template v-else>
+                  <a :href="material.url" target="_blank" rel="noopener">{{ material.title }}</a>
+                  <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                </template>
               </li>
             </ul>
           </div>
@@ -53,8 +64,19 @@ onMounted(async () => {
             <h6 class="text-secondary">Supporting Materials</h6>
             <ul class="mb-0">
               <li v-for="(material, idx) in session.supporting" :key="idx">
-                <a :href="material.url" target="_blank" rel="noopener">{{ material.title }}</a>
-                <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                <template v-if="material.links && material.links.length">
+                  {{ material.title }}
+                  <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                  <ul class="mb-0 ms-3">
+                    <li v-for="(link, linkIdx) in material.links" :key="linkIdx">
+                      <a :href="link.url" target="_blank" rel="noopener">{{ link.label }}</a>
+                    </li>
+                  </ul>
+                </template>
+                <template v-else>
+                  <a :href="material.url" target="_blank" rel="noopener">{{ material.title }}</a>
+                  <span v-if="material.note" class="text-muted ms-1">— {{ material.note }}</span>
+                </template>
               </li>
             </ul>
           </div>

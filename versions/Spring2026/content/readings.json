@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03",
+  "lastUpdated": "2026-02-04",
   "topics": [
     {
       "id": "science",
@@ -94,7 +94,84 @@
       "id": "software-engineering",
       "title": "AI & Software Engineering",
       "description": "How AI is transforming software engineering",
-      "sessions": []
+      "sessions": [
+        {
+          "id": "ai-coding",
+          "title": "AI & Coding",
+          "core": [
+            {
+              "title": "How AI Impacts Skill Formation",
+              "url": "https://arxiv.org/abs/2601.20245"
+            },
+            {
+              "title": "Who is using AI to code? Global diffusion and impact of generative AI",
+              "url": "https://doi.org/10.1126/science.adz9311"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Code with Me or for Me? How Increasing AI Automation Transforms Developer Workflows",
+              "url": "https://arxiv.org/abs/2507.08149"
+            },
+            {
+              "title": "How AI is transforming work at Anthropic",
+              "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic"
+            },
+            {
+              "title": "Andrej Karpathy: Software Is Changing (Again)",
+              "note": "YouTube video",
+              "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ"
+            },
+            {
+              "title": "Paralyzing, complete, unsolvable existential anxiety",
+              "url": "https://www.reddit.com/r/singularity/comments/1pxoawf/paralyzing_complete_unsolvable_existential_anxiety/",
+              "note": "Reddit post, please read the comments as well"
+            },
+            {
+              "title": "Andrej Karpathy's notes on Claude coding",
+              "note": "A Twitter thread",
+              "links": [
+                {
+                  "url": "https://x.com/karpathy/status/2015883857489522876",
+                  "label": "Original post"
+                },
+                {
+                  "url": "https://x.com/bcherny/status/2015979257038831967",
+                  "label": "Comment from Boris Cherny"
+                }
+              ]
+            },
+            {
+              "title": "Andrej Karpathy's notes on software engineering",
+              "note": "A Twitter thread",
+              "links": [
+                {
+                  "url": "https://x.com/karpathy/status/2004607146781278521",
+                  "label": "Original post"
+                },
+                {
+                  "url": "https://x.com/bcherny/status/2004626064187031831",
+                  "label": "Comment from Boris Cherny"
+                },
+                {
+                  "url": "https://x.com/karpathy/status/2004628491862696070",
+                  "label": "Reply from Andrej Karpathy"
+                }
+              ]
+            },
+            {
+              "title": "Thoughts on the job market in the age of LLMs",
+              "url": "https://www.interconnects.ai/p/thoughts-on-the-hiring-market-in",
+              "note": "Blog post"
+            },
+            {
+              "title": "Mental model for working with coding agents",
+              "note": "A BlueSky thread",
+              "url": "https://tbsky.app/profile/lizthegrey.com/post/3mb65fnjiis25"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "labor-market",
