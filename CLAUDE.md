@@ -29,6 +29,7 @@ make copy-syllabus VERSION=Spring2026    # Copy compiled syllabus PDF
 - `versions/{Semester}/demos/` - Jupyter notebooks
 
 ### Frontend Structure
+- `frontend/public/versions` - Symlink to `../../versions` (for dev server); not a duplicate
 - `frontend/src/composables/useVersion.js` - Version-aware data loading; provides `loadVersionData(filename)` and `currentVersion`
 - `frontend/src/wrappers/HomeWrapper.vue` - Async loader for custom vs default Home components
 - `frontend/src/router/` - Dynamic routing with version param (e.g., `/Spring2026/readings`)
