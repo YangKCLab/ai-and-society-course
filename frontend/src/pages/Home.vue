@@ -167,7 +167,7 @@ onMounted(async () => {
 
     <footer class="text-center text-muted">
       <hr />
-      <div>Last updated {{ new Date().toLocaleDateString() }}.</div>
+      <div>Last updated {{ new Date().toISOString().slice(0, 10) }}.</div>
       <div>
         Source on <a href="https://github.com/YangKCLab/ai-and-society-course" target="_blank" rel="noopener">GitHub</a>.
       </div>

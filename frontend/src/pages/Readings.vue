@@ -18,6 +18,9 @@ onMounted(async () => {
 <template>
   <main v-if="readingsData" class="container pb-5">
     <h1 class="h3 my-4">Course Readings</h1>
+    <p v-if="readingsData.lastUpdated" class="text-muted small mb-4">
+      Last updated: {{ readingsData.lastUpdated }}
+    </p>
 
     <p v-if="!readingsData.topics.length" class="text-muted">
       Reading materials will be posted soon.
