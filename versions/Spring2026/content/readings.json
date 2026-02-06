@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04",
+  "lastUpdated": "2026-02-06",
   "topics": [
     {
       "id": "science",
@@ -85,6 +85,37 @@
               "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
               "url": "https://journals.sagepub.com/doi/full/10.1177/08944393241286471",
               "note": "Annotation"
+            }
+          ]
+        },
+        {
+          "id": "ai-physical-science",
+          "title": "AI & Physical Science",
+          "core": [
+            {
+              "title": "Autonomous chemical research with large language models",
+              "url": "https://doi.org/10.1038/s41586-023-06792-0"
+            },
+            {
+              "title": "Benchmarking large language models on safety risks in scientific laboratories",
+              "url": "https://doi.org/10.1038/s42256-025-01152-1"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "A generative model for inorganic materials design",
+              "url": "https://doi.org/10.1038/s41586-025-08628-5",
+              "note": "Materials science"
+            },
+            {
+              "title": "Autonomous mobile robots for exploratory synthetic chemistry",
+              "url": "https://doi.org/10.1038/s41586-024-08173-7",
+              "note": "Chemistry"
+            },
+            {
+              "title": "Augmenting large language models with chemistry tools",
+              "url": "https://doi.org/10.1038/s42256-024-00832-8",
+              "note": "Chemistry"
             }
           ]
         }
