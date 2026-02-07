@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06",
+  "lastUpdated": "2026-02-07",
   "topics": [
     {
       "id": "science",
@@ -126,6 +126,55 @@
       "title": "AI & Software Engineering",
       "description": "How AI is transforming software engineering",
       "sessions": [
+        {
+          "id": "ai-coding-tools",
+          "title": "AI Coding",
+          "core": [
+            {
+              "title": "A Survey on Code Generation with LLM-based Agents",
+              "url": "https://arxiv.org/abs/2508.00083"
+            },
+            {
+              "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+              "url": "https://arxiv.org/abs/2310.06770"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Generation Probabilities Are Not Enough: Uncertainty Highlighting in AI Code Completions",
+              "url": "https://dl.acm.org/doi/full/10.1145/3702320"
+            },
+            {
+              "title": "AI-Driven Innovations in Software Engineering: A Review of Current Practices and Future Directions",
+              "url": "https://www.mdpi.com/2076-3417/15/3/1344"
+            },
+            {
+              "title": "RubberDuckBench: A Benchmark for AI Coding Assistants",
+              "url": "https://arxiv.org/abs/2601.16456"
+            },
+            {
+              "title": "Claude Code official documentation",
+              "links": [
+                {
+                  "url": "https://code.claude.com/docs/en/how-claude-code-works",
+                  "label": "How Claude Code works"
+                },
+                {
+                  "url": "https://code.claude.com/docs/en/features-overview",
+                  "label": "Features overview"
+                },
+                {
+                  "url": "https://code.claude.com/docs/en/common-workflows",
+                  "label": "Common workflows"
+                },
+                {
+                  "url": "https://code.claude.com/docs/en/best-practices",
+                  "label": "Best practices"
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "ai-coding",
           "title": "AI & Software Engineering",
