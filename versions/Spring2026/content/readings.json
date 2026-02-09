@@ -180,8 +180,8 @@
           "title": "AI & Software Engineering",
           "core": [
             {
-              "title": "How AI Impacts Skill Formation",
-              "url": "https://arxiv.org/abs/2601.20245"
+              "title": "Code with Me or for Me? How Increasing AI Automation Transforms Developer Workflows",
+              "url": "https://arxiv.org/abs/2507.08149"
             },
             {
               "title": "Who is using AI to code? Global diffusion and impact of generative AI",
@@ -190,8 +190,8 @@
           ],
           "supporting": [
             {
-              "title": "Code with Me or for Me? How Increasing AI Automation Transforms Developer Workflows",
-              "url": "https://arxiv.org/abs/2507.08149"
+              "title": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering",
+              "url": "https://arxiv.org/abs/2507.15003"
             },
             {
               "title": "How AI is transforming work at Anthropic",
