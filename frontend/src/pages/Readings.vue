@@ -34,7 +34,7 @@ onMounted(async () => {
       <!-- Sessions within each topic -->
       <div v-for="session in topic.sessions" :key="session.id" class="card mb-3">
         <div class="card-body">
-          <h5 :id="`${topic.id}-${session.id}`" class="card-title">{{ session.title }}</h5>
+          <h5 v-if="topic.sessions.length > 1" :id="`${topic.id}-${session.id}`" class="card-title">{{ session.title }}</h5>
           <p v-if="session.description" class="card-text text-muted small">{{ session.description }}</p>
 
           <!-- Core readings -->
