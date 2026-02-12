@@ -257,7 +257,44 @@
       "id": "labor-market",
       "title": "AI & Labor Market",
       "description": "AI's impact on labor market",
-      "sessions": []
+      "sessions": [
+        {
+          "id": "labor-market-impact",
+          "title": "AI & Labor Market",
+          "core": [
+            {
+              "title": "GPTs are GPTs: Labor market impact potential of LLMs",
+              "url": "https://doi.org/10.1126/science.adj0998"
+            },
+            {
+              "title": "Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand",
+              "url": "https://doi.org/10.1016/j.jebo.2024.106845"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Anthropic Economic Index report: economic primitives",
+              "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+            },
+            {
+              "title": "No Great Equalizer: Experimental Evidence on Productivity Effects of Generative AI Use in the UK Labor Market",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4594466"
+            },
+            {
+              "title": "The Future of Jobs Report 2025",
+              "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+            },
+            {
+              "title": "AI Doesn't Reduce Work—It Intensifies It",
+              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it"
+            },
+            {
+              "title": "Andrew Ng on Job Market",
+              "url": "https://x.com/AndrewYNg/status/2021259884709413291"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "education",
