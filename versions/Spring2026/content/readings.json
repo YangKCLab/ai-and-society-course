@@ -300,7 +300,77 @@
       "id": "education",
       "title": "AI & Education",
       "description": "How AI is changing education",
-      "sessions": []
+      "sessions": [
+        {
+          "id": "ai-education-learning",
+          "title": "Learning Experience and Outcomes in AI-Assisted Education",
+          "core": [
+            {
+              "title": "How AI Impacts Skill Formation",
+              "url": "https://arxiv.org/abs/2601.20245"
+            },
+            {
+              "title": "Mastering knowledge: the impact of generative AI on student learning outcomes",
+              "url": "https://doi.org/10.1080/03075079.2025.2487570"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "AI in the classroom: Exploring students' interaction with ChatGPT in programming learning",
+              "url": "https://doi.org/10.1007/s10639-025-13337-7"
+            },
+            {
+              "title": "Effects of Generative Artificial Intelligence on K-12 and Higher Education Students' Learning Outcomes: A Meta-Analysis",
+              "url": "https://doi.org/10.1177/07356331251329185"
+            },
+            {
+              "title": "The promise and challenges of generative AI in education",
+              "url": "https://doi.org/10.1080/0144929X.2024.2394886"
+            }
+          ]
+        },
+        {
+          "id": "ai-education-challenges",
+          "title": "Challenges in AI-Assisted Education",
+          "core": [
+            {
+              "title": "The Problem with False Positives: AI Detection Unfairly Accuses Scholars of AI Plagiarism",
+              "url": "https://doi.org/10.1080/0361526X.2024.2433256"
+            },
+            {
+              "title": "Assessment in Times of GenAI: Policies, Practices, Concepts, and Considerations",
+              "url": "https://aace.org/review/assessment-vs-ai/"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "The Effectiveness of Software Designed to Detect AI-Generated Writing: A Comparison of 16 AI Text Detectors",
+              "url": "https://www.degruyterbrill.com/document/doi/10.1515/opis-2022-0158/html",
+              "note": "Plagiarism detection"
+            },
+            {
+              "title": "Giving University Exams in the Age of Chatbots",
+              "url": "https://ploum.net/2026-01-19-exam-with-chatbots.html",
+              "note": "Assessment"
+            },
+            {
+              "title": "Protecting Human Cognition in the Age of AI",
+              "url": "https://arxiv.org/abs/2502.12447v3",
+              "note": "Cognitive offloading"
+            },
+            {
+              "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+              "url": "https://doi.org/10.3390/soc15010006",
+              "note": "Cognitive offloading"
+            },
+            {
+              "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+              "url": "https://arxiv.org/pdf/2601.00765",
+              "note": "Transparency"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "healthcare",
