@@ -376,6 +376,49 @@
       "id": "healthcare",
       "title": "AI & Healthcare",
       "description": "Applications and challenges of AI in healthcare",
+      "sessions": [
+        {
+          "id": "ai-mental-health",
+          "title": "AI & Mental Health",
+          "core": [
+            {
+              "title": "Evaluating Generative AI in Mental Health: Systematic Review of Capabilities and Limitations",
+              "url": "https://doi.org/10.2196/70014"
+            },
+            {
+              "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study",
+              "url": "https://arxiv.org/abs/2503.17473"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "'You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself",
+              "url": "https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis"
+            },
+            {
+              "title": "Strengthening ChatGPT's responses in sensitive conversations",
+              "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/"
+            },
+            {
+              "title": "\"It happened to be the perfect thing\": experiences of generative AI chatbots for mental health",
+              "url": "https://doi.org/10.1038/s44184-024-00097-4"
+            },
+            {
+              "title": "Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction: A Case Study of Cognitive Restructuring",
+              "url": "https://doi.org/10.1145/3613904.3642761"
+            },
+            {
+              "title": "\"Shaping ChatGPT into my Digital Therapist\": A thematic analysis of social media discourse on using generative artificial intelligence for mental health",
+              "url": "https://doi.org/10.1177/20552076251351088"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "companionship",
+      "title": "AI Companionship",
+      "description": "How AI is serving as companions for humans",
       "sessions": []
     },
     {
