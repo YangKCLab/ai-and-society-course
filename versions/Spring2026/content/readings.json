@@ -378,6 +378,39 @@
       "description": "Applications and challenges of AI in healthcare",
       "sessions": [
         {
+          "id": "ai-healthcare-intro",
+          "title": "Application of AI in Healthcare",
+          "introduction": "For this session, we will focus on the application of AI in health care.",
+          "core": [
+            {
+              "title": "Artificial intelligence in drug development",
+              "url": "https://doi.org/10.1038/s41591-024-03434-4"
+            },
+            {
+              "title": "Large language models for disease diagnosis: a scoping review",
+              "url": "https://doi.org/10.1038/s44387-025-00011-z"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Generative artificial intelligence in medicine",
+              "url": "https://doi.org/10.1038/s41591-025-03983-2"
+            },
+            {
+              "title": "Application of large language models in medicine",
+              "url": "https://doi.org/10.1038/s44222-025-00279-5"
+            },
+            {
+              "title": "The evaluation illusion of large language models in medicine",
+              "url": "https://doi.org/10.1038/s41746-025-01963-x"
+            },
+            {
+              "title": "A guide to artificial intelligence for cancer researchers",
+              "url": "https://doi.org/10.1038/s41568-024-00694-7"
+            }
+          ]
+        },
+        {
           "id": "ai-mental-health",
           "title": "AI & Mental Health",
           "core": [
