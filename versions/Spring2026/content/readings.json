@@ -286,11 +286,13 @@
             },
             {
               "title": "AI Doesn't Reduce Work—It Intensifies It",
-              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it"
+              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+              "note": "Blog post"
             },
             {
               "title": "Andrew Ng on Job Market",
-              "url": "https://x.com/AndrewYNg/status/2021259884709413291"
+              "url": "https://x.com/AndrewYNg/status/2021259884709413291",
+              "note": "Twitter post"
             }
           ]
         }
@@ -401,12 +403,12 @@
               "url": "https://doi.org/10.1038/s44222-025-00279-5"
             },
             {
-              "title": "The evaluation illusion of large language models in medicine",
-              "url": "https://doi.org/10.1038/s41746-025-01963-x"
-            },
-            {
               "title": "A guide to artificial intelligence for cancer researchers",
               "url": "https://doi.org/10.1038/s41568-024-00694-7"
+            },
+            {
+              "title": "The evaluation illusion of large language models in medicine",
+              "url": "https://doi.org/10.1038/s41746-025-01963-x"
             }
           ]
         },
@@ -426,11 +428,13 @@
           "supporting": [
             {
               "title": "'You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself",
-              "url": "https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis"
+              "url": "https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis",
+              "note": "News article"
             },
             {
               "title": "Strengthening ChatGPT's responses in sensitive conversations",
-              "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/"
+              "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
+              "note": "OpenAI's announcement"
             },
             {
               "title": "\"It happened to be the perfect thing\": experiences of generative AI chatbots for mental health",
