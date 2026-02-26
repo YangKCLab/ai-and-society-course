@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24",
+  "lastUpdated": "2026-02-26",
   "topics": [
     {
       "id": "science",
@@ -409,6 +409,39 @@
             {
               "title": "The evaluation illusion of large language models in medicine",
               "url": "https://doi.org/10.1038/s41746-025-01963-x"
+            }
+          ]
+        },
+        {
+          "id": "ai-healthcare-adoption",
+          "title": "AI Adoption by Doctors and Patients",
+          "introduction": "For this session, we will focus on the adoption of AI by doctors and patients.",
+          "core": [
+            {
+              "title": "The 2025 Physicians AI Report",
+              "url": "https://2025-physicians-ai-report.offcall.com/"
+            },
+            {
+              "title": "A community-codesigned LLM-powered chatbot for primary care: a randomized controlled trial",
+              "url": "https://doi.org/10.1038/s44360-025-00021-w"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Large language model diagnostic assistance for physicians in a lower-middle-income country: a randomized controlled trial",
+              "url": "https://doi.org/10.1038/s44360-025-00007-8"
+            },
+            {
+              "title": "Using ChatGPT-4 to Create Structured Medical Notes From Audio Recordings of Physician-Patient Encounters: Comparative Study",
+              "url": "https://doi.org/10.2196/54419"
+            },
+            {
+              "title": "Large language models in global health",
+              "url": "https://doi.org/10.1038/s44360-025-00024-7"
+            },
+            {
+              "title": "Overcoming Consumer Resistance to AI in General Health Care",
+              "url": "https://doi.org/10.1177/10949968221151061"
             }
           ]
         },
