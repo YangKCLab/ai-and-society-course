@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26",
+  "lastUpdated": "2026-03-03",
   "topics": [
     {
       "id": "science",
@@ -489,7 +489,41 @@
       "id": "companionship",
       "title": "AI Companionship",
       "description": "How AI is serving as companions for humans",
-      "sessions": []
+      "sessions": [
+        {
+          "id": "ai-companionship",
+          "title": "AI Companionship",
+          "introduction": "For this session, we will focus on AI companionship.",
+          "core": [
+            {
+              "title": "Chatbots as social companions: How people perceive consciousness, human likeness, and social health benefits in machines",
+              "url": "https://arxiv.org/abs/2311.10599"
+            },
+            {
+              "title": "The Rise of AI Companions: How Human-Chatbot Relationships Influence Well-Being",
+              "url": "https://arxiv.org/abs/2506.12605"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "\"Please, don't kill the only model that still feels human\": Understanding the #Keep4o Backlash",
+              "url": "https://arxiv.org/abs/2602.00773"
+            },
+            {
+              "title": "The Dark Side of AI Companionship: A Taxonomy of Harmful Algorithmic Behaviors in Human-AI Relationships",
+              "url": "https://doi.org/10.1145/3706598.3713429"
+            },
+            {
+              "title": "Emotional Manipulation by AI Companions",
+              "url": "https://arxiv.org/abs/2508.19258"
+            },
+            {
+              "title": "\"My Boyfriend is AI\": A Computational Analysis of Human-AI Companionship in Reddit's AI Community",
+              "url": "https://arxiv.org/abs/2509.11391"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "information-ecosystems",
