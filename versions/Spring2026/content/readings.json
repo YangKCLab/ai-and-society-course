@@ -565,16 +565,66 @@
       ]
     },
     {
-      "id": "information-ecosystems",
-      "title": "AI & Information Ecosystems",
-      "description": "AI's role in content creation and information access",
-      "sessions": []
-    },
-    {
-      "id": "governance-ethics",
-      "title": "AI & Governance & Ethics",
-      "description": "Policy, regulation, and ethical considerations of AI",
-      "sessions": []
+      "id": "governance-regulation",
+      "title": "Governance & Regulation of AI",
+      "description": "Policy, governance, and regulation of AI",
+      "sessions": [
+        {
+          "id": "governance-regulation-session",
+          "title": "AI Governance & Regulation",
+          "core": [
+            {
+              "title": "Rules for trustworthy artificial intelligence in the EU",
+              "url": "https://eur-lex.europa.eu/EN/legal-content/summary/rules-for-trustworthy-artificial-intelligence-in-the-eu.html"
+            },
+            {
+              "title": "Bridging Soft and Hard Law in AI Governance",
+              "url": "https://www.biicl.org/blog/121/bridging-soft-and-hard-law-in-ai-governance"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "NIST AI RMF Generative AI Profile",
+              "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+              "note": "NIST AI 600-1"
+            },
+            {
+              "title": "Our updated Preparedness Framework",
+              "url": "https://openai.com/index/updating-our-preparedness-framework/"
+            },
+            {
+              "title": "New York regulations on AI",
+              "links": [
+                {
+                  "url": "https://ogletree.com/insights-resources/blog-posts/new-york-governor-unveils-new-ai-agenda/",
+                  "label": "NY Governor's AI Agenda"
+                },
+                {
+                  "url": "https://ktslaw.com/en/insights/alert/2026/1/new%20yorks%20raise%20act%20raises%20the%20bar%20for%20frontier%20ai%20developers",
+                  "label": "NY RAISE Act analysis"
+                }
+              ]
+            },
+            {
+              "title": "New York Senate Bill S7263: Chatbot liability",
+              "links": [
+                {
+                  "url": "https://statescoop.com/new-york-bill-would-ban-chatbots-legal-medical-advice/",
+                  "label": "News report"
+                },
+                {
+                  "url": "https://www.nysenate.gov/legislation/bills/2025/S7263",
+                  "label": "Full bill text"
+                },
+                {
+                  "url": "https://x.com/SenGonzalezNY/status/2030021145949250038",
+                  "label": "Senator Gonzalez's explanation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
