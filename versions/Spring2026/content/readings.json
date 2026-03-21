@@ -580,6 +580,19 @@
             {
               "title": "Bridging Soft and Hard Law in AI Governance",
               "url": "https://www.biicl.org/blog/121/bridging-soft-and-hard-law-in-ai-governance"
+            },
+            {
+              "title": "A National Policy Framework for Artificial Intelligence",
+              "links": [
+                {
+                  "url": "https://www.whitehouse.gov/articles/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+                  "label": "White House announcement"
+                },
+                {
+                  "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+                  "label": "Full framework (PDF)"
+                }
+              ]
             }
           ],
           "supporting": [
