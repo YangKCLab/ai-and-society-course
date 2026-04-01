@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15",
+  "lastUpdated": "2026-03-31",
   "topics": [
     {
       "id": "science",
@@ -634,6 +634,50 @@
                   "label": "Senator Gonzalez's explanation"
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "AI & Cybersecurity",
+      "description": "How AI is affecting cybersecurity",
+      "sessions": [
+        {
+          "id": "ai-cybersecurity",
+          "title": "AI & Cybersecurity",
+          "core": [
+            {
+              "title": "Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks",
+              "url": "https://arxiv.org/abs/2505.12786"
+            },
+            {
+              "title": "International AI Safety Report 2026",
+              "note": "Focus on the Executive Summary and the Cyberattacks section",
+              "url": "https://arxiv.org/abs/2602.21012"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+              "url": "https://arxiv.org/abs/2403.02817"
+            },
+            {
+              "title": "Frontier AI's Impact on the Cybersecurity Landscape",
+              "url": "https://arxiv.org/abs/2504.05408"
+            },
+            {
+              "title": "The New Shockwave: AI‑Generated Cyber Attacks",
+              "url": "https://quandarypeak.com/2026/01/the-new-shockwave-ai-generated-cyber-attacks/"
+            },
+            {
+              "title": "Prompt injection explained: the top AI security threat enterprises cannot ignore",
+              "url": "https://www.vectra.ai/topics/prompt-injection"
+            },
+            {
+              "title": "CrowdStrike 2026 Global Threat Report",
+              "url": "https://go.crowdstrike.com/2026-global-threat-report.html"
             }
           ]
         }
