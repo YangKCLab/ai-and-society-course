@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31",
+  "lastUpdated": "2026-04-03",
   "topics": [
     {
       "id": "science",
@@ -678,6 +678,45 @@
             {
               "title": "CrowdStrike 2026 Global Threat Report",
               "url": "https://go.crowdstrike.com/2026-global-threat-report.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bias",
+      "title": "Bias in AI Systems",
+      "description": "Understanding and measuring bias in AI systems",
+      "sessions": [
+        {
+          "id": "bias-in-ai",
+          "title": "Bias in AI Systems",
+          "core": [
+            {
+              "title": "Large language models reflect the ideology of their creators",
+              "url": "https://www.nature.com/articles/s44387-025-00048-0"
+            },
+            {
+              "title": "Explicitly unbiased large language models still form biased associations",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2416228122"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Large Language Models Are Biased Because They Are Large Language Models",
+              "url": "https://direct.mit.edu/coli/article/51/3/885/128621/Large-Language-Models-Are-Biased-Because-They-Are"
+            },
+            {
+              "title": "About Tracking AI",
+              "url": "https://trackingai.org/about"
+            },
+            {
+              "title": "Measuring political bias in Claude",
+              "url": "https://www.anthropic.com/news/political-even-handedness"
+            },
+            {
+              "title": "Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization",
+              "url": "https://aclanthology.org/2025.emnlp-main.1029/"
             }
           ]
         }
