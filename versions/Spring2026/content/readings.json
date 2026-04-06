@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-06",
   "topics": [
     {
       "id": "science",
@@ -717,6 +717,46 @@
             {
               "title": "Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization",
               "url": "https://aclanthology.org/2025.emnlp-main.1029/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-risks",
+      "title": "AI Risks and Mitigation",
+      "description": "Understanding and mitigating risks from advanced AI systems",
+      "sessions": [
+        {
+          "id": "ai-risks-mitigation",
+          "title": "AI Risks and Mitigation",
+          "core": [
+            {
+              "title": "Managing extreme AI risks amid rapid progress",
+              "url": "https://arxiv.org/abs/2310.17688"
+            },
+            {
+              "title": "Our updated Preparedness Framework",
+              "url": "https://openai.com/index/updating-our-preparedness-framework/"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "International AI Safety Report 2026",
+              "url": "https://arxiv.org/abs/2602.21012",
+              "note": "Focus on the Risks-Biological and chemical risks section"
+            },
+            {
+              "title": "Responsible Scaling Policy Updates",
+              "url": "https://www.anthropic.com/responsible-scaling-policy"
+            },
+            {
+              "title": "Google DeepMind strengthens the Frontier Safety Framework",
+              "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"
+            },
+            {
+              "title": "Environmental impact and net-zero pathways for sustainable AI servers in the USA",
+              "url": "https://www.nature.com/articles/s41893-025-01681-y"
             }
           ]
         }
