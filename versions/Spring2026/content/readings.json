@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10",
+  "lastUpdated": "2026-04-12",
   "topics": [
     {
       "id": "science",
@@ -797,6 +797,45 @@
             {
               "title": "Synthesizing scientific literature with retrieval-augmented language models",
               "url": "https://www.nature.com/articles/s41586-025-10072-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "title": "AI & Intellectual Property & Copyright",
+      "description": "AI's impact on intellectual property law, copyright, and licensing",
+      "sessions": [
+        {
+          "id": "intellectual-property-session",
+          "title": "AI & Intellectual Property & Copyright",
+          "core": [
+            {
+              "title": "Can You Relicense Open Source by Rewriting It with AI? The chardet 7.0 Dispute",
+              "url": "https://shujisado.org/2026/03/10/can-you-relicense-open-source-by-rewriting-it-with-ai-the-chardet-7-0-dispute/"
+            },
+            {
+              "title": "NYT vs OpenAI Lawsuit Update (Feb 2026): Who Is Winning?",
+              "url": "https://patentailab.com/nyt-vs-openai-lawsuit-update-2026/"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Supreme Court Denies Certiorari in Thaler v. Perlmutter: AI Cannot Be an Author Under the Copyright Act",
+              "url": "https://www.bakerdonelson.com/supreme-court-denies-certiorari-in-thaler-v-perlmutter-ai-cannot-be-an-author-under-the-copyright-act"
+            },
+            {
+              "title": "CLEAR Act (S.3813, 119th Congress)",
+              "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3813/text"
+            },
+            {
+              "title": "Privacy and Copyright Protection in Generative AI: A Lifecycle Perspective",
+              "url": "https://doi.org/10.1145/3644815.3644952"
+            },
+            {
+              "title": "Scalable Extraction of Training Data from (Production) Language Models",
+              "url": "https://arxiv.org/abs/2311.17035"
             }
           ]
         }
