@@ -42,7 +42,7 @@ onMounted(async () => {
       <p class="lead" id="description">
         This course examines the transformative impact of artificial intelligence—particularly large language models (LLMs)—on society.
         Through seminar discussions, research paper readings, and hands-on projects, students will explore how AI systems
-        are reshaping labor markets, education, scientific research, healthcare, information ecosystems, and governance.
+        are reshaping scientific research, labor markets, healthcare, human interaction, information ecosystems, and governance.
         The course emphasizes critical analysis of both the opportunities and challenges posed by AI technologies.
       </p>
     </section>
@@ -121,13 +121,12 @@ onMounted(async () => {
             <div class="card-body">
               <h6 class="card-title">Seminar Topics</h6>
               <ul class="mb-0">
-                <li>Introduction to LLMs and AI foundations</li>
-                <li>AI and labor markets</li>
-                <li>AI in education</li>
-                <li>AI in scientific research</li>
-                <li>AI in healthcare</li>
-                <li>AI and information ecosystems</li>
-                <li>AI governance and ethics</li>
+                <li>AI &amp; Science</li>
+                <li>AI Transforming Work &amp; Professions</li>
+                <li>AI &amp; Health</li>
+                <li>AI &amp; Human Interaction</li>
+                <li>AI &amp; the Information Ecosystem</li>
+                <li>Governance, Risks &amp; Legal</li>
               </ul>
             </div>
           </div>
