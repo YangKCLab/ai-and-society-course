@@ -1,10 +1,9 @@
 {
   "lastUpdated": "2026-04-15",
-  "topics": [
+  "groups": [
     {
-      "id": "science",
-      "title": "AI & Science",
-      "description": "Understanding the role of AI in scientific research",
+      "id": "work-professions",
+      "title": "AI Transforming Work & Professions",
       "sessions": [
         {
           "id": "science-production",
@@ -26,7 +25,7 @@
               "note": "Funding"
             },
             {
-              "title": "AI chatbots are sycophants — researchers say it's harming science",
+              "title": "AI chatbots are sycophants \u2014 researchers say it's harming science",
               "url": "https://www.nature.com/articles/d41586-025-03390-0",
               "note": "Sycophancy"
             },
@@ -46,7 +45,7 @@
               "note": "Peer review"
             },
             {
-              "title": "More than half of researchers now use AI for peer review — often against guidance",
+              "title": "More than half of researchers now use AI for peer review \u2014 often against guidance",
               "url": "https://www.nature.com/articles/d41586-025-04066-5",
               "note": "Peer review"
             }
@@ -118,14 +117,7 @@
               "note": "Chemistry"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "software-engineering",
-      "title": "AI & Software Engineering",
-      "description": "How AI is transforming software engineering",
-      "sessions": [
+        },
         {
           "id": "ai-coding-tools",
           "title": "AI Coding",
@@ -250,135 +242,7 @@
               "url": "https://tbsky.app/profile/lizthegrey.com/post/3mb65fnjiis25"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "labor-market",
-      "title": "AI & Labor Market",
-      "description": "AI's impact on labor market",
-      "sessions": [
-        {
-          "id": "labor-market-impact",
-          "title": "AI & Labor Market",
-          "core": [
-            {
-              "title": "GPTs are GPTs: Labor market impact potential of LLMs",
-              "url": "https://doi.org/10.1126/science.adj0998"
-            },
-            {
-              "title": "Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand",
-              "url": "https://doi.org/10.1016/j.jebo.2024.106845"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "Anthropic Economic Index report: economic primitives",
-              "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
-            },
-            {
-              "title": "No Great Equalizer: Experimental Evidence on Productivity Effects of Generative AI Use in the UK Labor Market",
-              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4594466"
-            },
-            {
-              "title": "The Future of Jobs Report 2025",
-              "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
-            },
-            {
-              "title": "AI Doesn't Reduce Work—It Intensifies It",
-              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
-              "note": "Blog post"
-            },
-            {
-              "title": "Andrew Ng on Job Market",
-              "url": "https://x.com/AndrewYNg/status/2021259884709413291",
-              "note": "Twitter post"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "education",
-      "title": "AI & Education",
-      "description": "How AI is changing education",
-      "sessions": [
-        {
-          "id": "ai-education-learning",
-          "title": "Learning Experience and Outcomes in AI-Assisted Education",
-          "core": [
-            {
-              "title": "How AI Impacts Skill Formation",
-              "url": "https://arxiv.org/abs/2601.20245"
-            },
-            {
-              "title": "Mastering knowledge: the impact of generative AI on student learning outcomes",
-              "url": "https://doi.org/10.1080/03075079.2025.2487570"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "AI in the classroom: Exploring students' interaction with ChatGPT in programming learning",
-              "url": "https://doi.org/10.1007/s10639-025-13337-7"
-            },
-            {
-              "title": "Effects of Generative Artificial Intelligence on K-12 and Higher Education Students' Learning Outcomes: A Meta-Analysis",
-              "url": "https://doi.org/10.1177/07356331251329185"
-            },
-            {
-              "title": "The promise and challenges of generative AI in education",
-              "url": "https://doi.org/10.1080/0144929X.2024.2394886"
-            }
-          ]
         },
-        {
-          "id": "ai-education-challenges",
-          "title": "Challenges in AI-Assisted Education",
-          "core": [
-            {
-              "title": "The Problem with False Positives: AI Detection Unfairly Accuses Scholars of AI Plagiarism",
-              "url": "https://doi.org/10.1080/0361526X.2024.2433256"
-            },
-            {
-              "title": "Assessment in Times of GenAI: Policies, Practices, Concepts, and Considerations",
-              "url": "https://aace.org/review/assessment-vs-ai/"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "The Effectiveness of Software Designed to Detect AI-Generated Writing: A Comparison of 16 AI Text Detectors",
-              "url": "https://www.degruyterbrill.com/document/doi/10.1515/opis-2022-0158/html",
-              "note": "Plagiarism detection"
-            },
-            {
-              "title": "Giving University Exams in the Age of Chatbots",
-              "url": "https://ploum.net/2026-01-19-exam-with-chatbots.html",
-              "note": "Assessment"
-            },
-            {
-              "title": "Protecting Human Cognition in the Age of AI",
-              "url": "https://arxiv.org/abs/2502.12447v3",
-              "note": "Cognitive offloading"
-            },
-            {
-              "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
-              "url": "https://doi.org/10.3390/soc15010006",
-              "note": "Cognitive offloading"
-            },
-            {
-              "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
-              "url": "https://arxiv.org/pdf/2601.00765",
-              "note": "Transparency"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "healthcare",
-      "title": "AI & Healthcare",
-      "description": "Applications and challenges of AI in healthcare",
-      "sessions": [
         {
           "id": "ai-healthcare-intro",
           "title": "Application of AI in Healthcare",
@@ -482,14 +346,120 @@
               "url": "https://doi.org/10.1177/20552076251351088"
             }
           ]
+        },
+        {
+          "id": "labor-market-impact",
+          "title": "AI & Labor Market",
+          "core": [
+            {
+              "title": "GPTs are GPTs: Labor market impact potential of LLMs",
+              "url": "https://doi.org/10.1126/science.adj0998"
+            },
+            {
+              "title": "Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand",
+              "url": "https://doi.org/10.1016/j.jebo.2024.106845"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Anthropic Economic Index report: economic primitives",
+              "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+            },
+            {
+              "title": "No Great Equalizer: Experimental Evidence on Productivity Effects of Generative AI Use in the UK Labor Market",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4594466"
+            },
+            {
+              "title": "The Future of Jobs Report 2025",
+              "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+            },
+            {
+              "title": "AI Doesn't Reduce Work\u2014It Intensifies It",
+              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+              "note": "Blog post"
+            },
+            {
+              "title": "Andrew Ng on Job Market",
+              "url": "https://x.com/AndrewYNg/status/2021259884709413291",
+              "note": "Twitter post"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "companionship",
-      "title": "AI Companionship",
-      "description": "How AI is serving as companions for humans",
+      "id": "human-interaction",
+      "title": "AI & Human Interaction",
       "sessions": [
+        {
+          "id": "ai-education-learning",
+          "title": "Learning Experience and Outcomes in AI-Assisted Education",
+          "core": [
+            {
+              "title": "How AI Impacts Skill Formation",
+              "url": "https://arxiv.org/abs/2601.20245"
+            },
+            {
+              "title": "Mastering knowledge: the impact of generative AI on student learning outcomes",
+              "url": "https://doi.org/10.1080/03075079.2025.2487570"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "AI in the classroom: Exploring students' interaction with ChatGPT in programming learning",
+              "url": "https://doi.org/10.1007/s10639-025-13337-7"
+            },
+            {
+              "title": "Effects of Generative Artificial Intelligence on K-12 and Higher Education Students' Learning Outcomes: A Meta-Analysis",
+              "url": "https://doi.org/10.1177/07356331251329185"
+            },
+            {
+              "title": "The promise and challenges of generative AI in education",
+              "url": "https://doi.org/10.1080/0144929X.2024.2394886"
+            }
+          ]
+        },
+        {
+          "id": "ai-education-challenges",
+          "title": "Challenges in AI-Assisted Education",
+          "core": [
+            {
+              "title": "The Problem with False Positives: AI Detection Unfairly Accuses Scholars of AI Plagiarism",
+              "url": "https://doi.org/10.1080/0361526X.2024.2433256"
+            },
+            {
+              "title": "Assessment in Times of GenAI: Policies, Practices, Concepts, and Considerations",
+              "url": "https://aace.org/review/assessment-vs-ai/"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "The Effectiveness of Software Designed to Detect AI-Generated Writing: A Comparison of 16 AI Text Detectors",
+              "url": "https://www.degruyterbrill.com/document/doi/10.1515/opis-2022-0158/html",
+              "note": "Plagiarism detection"
+            },
+            {
+              "title": "Giving University Exams in the Age of Chatbots",
+              "url": "https://ploum.net/2026-01-19-exam-with-chatbots.html",
+              "note": "Assessment"
+            },
+            {
+              "title": "Protecting Human Cognition in the Age of AI",
+              "url": "https://arxiv.org/abs/2502.12447v3",
+              "note": "Cognitive offloading"
+            },
+            {
+              "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+              "url": "https://doi.org/10.3390/soc15010006",
+              "note": "Cognitive offloading"
+            },
+            {
+              "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
+              "url": "https://arxiv.org/pdf/2601.00765",
+              "note": "Transparency"
+            }
+          ]
+        },
         {
           "id": "ai-companionship",
           "title": "AI Companionship",
@@ -522,14 +492,7 @@
               "url": "https://arxiv.org/abs/2509.11391"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ai-mediated-communication",
-      "title": "AI-Mediated Communication",
-      "description": "How AI mediates and transforms interpersonal communication",
-      "sessions": [
+        },
         {
           "id": "ai-mediated-communication",
           "title": "AI-Mediated Communication",
@@ -539,7 +502,7 @@
               "url": "https://www.science.org/doi/full/10.1126/sciadv.adw5578"
             },
             {
-              "title": "AI–AI bias: Large language models favor communications generated by large language models",
+              "title": "AI\u2013AI bias: Large language models favor communications generated by large language models",
               "url": "https://www.pnas.org/doi/10.1073/pnas.2415697122"
             }
           ],
@@ -565,10 +528,182 @@
       ]
     },
     {
-      "id": "governance-regulation",
-      "title": "Governance & Regulation of AI",
-      "description": "Policy, governance, and regulation of AI",
+      "id": "information-ecosystem",
+      "title": "AI & the Information Ecosystem",
       "sessions": [
+        {
+          "id": "information-curation-session",
+          "title": "AI and Information Curation",
+          "core": [
+            {
+              "title": "Generative Echo Chamber? Effects of LLM-Powered Search Systems on Diverse Information Seeking",
+              "url": "https://arxiv.org/abs/2402.05880"
+            },
+            {
+              "title": "Large Language Models are Zero-Shot Rankers for Recommender Systems",
+              "url": "https://doi.org/10.1007/978-3-031-56060-6_24"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "LLMs and Chatbots Are Not Good Technology for Information Access",
+              "url": "https://x.com/emilymbender/status/1853279181012094999",
+              "note": "Twitter thread by Emily Bender"
+            },
+            {
+              "title": "News Source Citing Patterns in AI Search Systems",
+              "url": "https://arxiv.org/abs/2507.05301"
+            },
+            {
+              "title": "Large Language Models for Information Retrieval: A Survey",
+              "url": "https://arxiv.org/abs/2308.07107"
+            },
+            {
+              "title": "Synthesizing scientific literature with retrieval-augmented language models",
+              "url": "https://www.nature.com/articles/s41586-025-10072-4"
+            }
+          ]
+        },
+        {
+          "id": "misinformation-influence",
+          "title": "Misinformation and Influence Campaigns",
+          "core": [
+            {
+              "title": "How malicious AI swarms can threaten democracy",
+              "url": "https://www.science.org/doi/10.1126/science.adz1697"
+            },
+            {
+              "title": "Generative propaganda: Evidence of AI's impact from a state-backed disinformation campaign",
+              "url": "https://doi.org/10.1093/pnasnexus/pgaf083"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Large language models can effectively convince people to believe conspiracies",
+              "url": "https://arxiv.org/abs/2601.05050"
+            },
+            {
+              "title": "As Good As A Coin Toss: Human detection of AI-generated images, videos, audio, and audiovisual stimuli",
+              "url": "https://arxiv.org/abs/2403.16760"
+            },
+            {
+              "title": "Characterizing AI-Generated Misinformation on Social Media",
+              "url": "https://arxiv.org/abs/2505.10266"
+            },
+            {
+              "title": "A Survey on Proactive Defense Strategies Against Misinformation in Large Language Models",
+              "url": "https://arxiv.org/abs/2507.05288"
+            }
+          ]
+        },
+        {
+          "id": "bias-in-ai",
+          "title": "Bias in AI Systems",
+          "core": [
+            {
+              "title": "Large language models reflect the ideology of their creators",
+              "url": "https://www.nature.com/articles/s44387-025-00048-0"
+            },
+            {
+              "title": "Explicitly unbiased large language models still form biased associations",
+              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2416228122"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Large Language Models Are Biased Because They Are Large Language Models",
+              "url": "https://direct.mit.edu/coli/article/51/3/885/128621/Large-Language-Models-Are-Biased-Because-They-Are"
+            },
+            {
+              "title": "About Tracking AI",
+              "url": "https://trackingai.org/about"
+            },
+            {
+              "title": "Measuring political bias in Claude",
+              "url": "https://www.anthropic.com/news/political-even-handedness"
+            },
+            {
+              "title": "Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization",
+              "url": "https://aclanthology.org/2025.emnlp-main.1029/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-risks-legal",
+      "title": "Governance, Risks & Legal",
+      "sessions": [
+        {
+          "id": "ai-cybersecurity",
+          "title": "AI & Cybersecurity",
+          "core": [
+            {
+              "title": "Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks",
+              "url": "https://arxiv.org/abs/2505.12786"
+            },
+            {
+              "title": "International AI Safety Report 2026",
+              "note": "Focus on the Executive Summary and the Cyberattacks section",
+              "url": "https://arxiv.org/abs/2602.21012"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+              "url": "https://arxiv.org/abs/2403.02817"
+            },
+            {
+              "title": "Frontier AI's Impact on the Cybersecurity Landscape",
+              "url": "https://arxiv.org/abs/2504.05408"
+            },
+            {
+              "title": "The New Shockwave: AI\u2011Generated Cyber Attacks",
+              "url": "https://quandarypeak.com/2026/01/the-new-shockwave-ai-generated-cyber-attacks/"
+            },
+            {
+              "title": "Prompt injection explained: the top AI security threat enterprises cannot ignore",
+              "url": "https://www.vectra.ai/topics/prompt-injection"
+            },
+            {
+              "title": "CrowdStrike 2026 Global Threat Report",
+              "url": "https://go.crowdstrike.com/2026-global-threat-report.html"
+            }
+          ]
+        },
+        {
+          "id": "ai-risks-mitigation",
+          "title": "AI Risks and Mitigation",
+          "core": [
+            {
+              "title": "Managing extreme AI risks amid rapid progress",
+              "url": "https://arxiv.org/abs/2310.17688"
+            },
+            {
+              "title": "Our updated Preparedness Framework",
+              "url": "https://openai.com/index/updating-our-preparedness-framework/"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "International AI Safety Report 2026",
+              "url": "https://arxiv.org/abs/2602.21012",
+              "note": "Focus on the Risks-Biological and chemical risks section"
+            },
+            {
+              "title": "Responsible Scaling Policy Updates",
+              "url": "https://www.anthropic.com/responsible-scaling-policy"
+            },
+            {
+              "title": "Google DeepMind strengthens the Frontier Safety Framework",
+              "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"
+            },
+            {
+              "title": "Environmental impact and net-zero pathways for sustainable AI servers in the USA",
+              "url": "https://www.nature.com/articles/s41893-025-01681-y"
+            }
+          ]
+        },
         {
           "id": "governance-regulation-session",
           "title": "AI Governance & Regulation",
@@ -636,216 +771,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "security",
-      "title": "AI & Cybersecurity",
-      "description": "How AI is affecting cybersecurity",
-      "sessions": [
-        {
-          "id": "ai-cybersecurity",
-          "title": "AI & Cybersecurity",
-          "core": [
-            {
-              "title": "Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks",
-              "url": "https://arxiv.org/abs/2505.12786"
-            },
-            {
-              "title": "International AI Safety Report 2026",
-              "note": "Focus on the Executive Summary and the Cyberattacks section",
-              "url": "https://arxiv.org/abs/2602.21012"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
-              "url": "https://arxiv.org/abs/2403.02817"
-            },
-            {
-              "title": "Frontier AI's Impact on the Cybersecurity Landscape",
-              "url": "https://arxiv.org/abs/2504.05408"
-            },
-            {
-              "title": "The New Shockwave: AI‑Generated Cyber Attacks",
-              "url": "https://quandarypeak.com/2026/01/the-new-shockwave-ai-generated-cyber-attacks/"
-            },
-            {
-              "title": "Prompt injection explained: the top AI security threat enterprises cannot ignore",
-              "url": "https://www.vectra.ai/topics/prompt-injection"
-            },
-            {
-              "title": "CrowdStrike 2026 Global Threat Report",
-              "url": "https://go.crowdstrike.com/2026-global-threat-report.html"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bias",
-      "title": "Bias in AI Systems",
-      "description": "Understanding and measuring bias in AI systems",
-      "sessions": [
-        {
-          "id": "bias-in-ai",
-          "title": "Bias in AI Systems",
-          "core": [
-            {
-              "title": "Large language models reflect the ideology of their creators",
-              "url": "https://www.nature.com/articles/s44387-025-00048-0"
-            },
-            {
-              "title": "Explicitly unbiased large language models still form biased associations",
-              "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2416228122"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "Large Language Models Are Biased Because They Are Large Language Models",
-              "url": "https://direct.mit.edu/coli/article/51/3/885/128621/Large-Language-Models-Are-Biased-Because-They-Are"
-            },
-            {
-              "title": "About Tracking AI",
-              "url": "https://trackingai.org/about"
-            },
-            {
-              "title": "Measuring political bias in Claude",
-              "url": "https://www.anthropic.com/news/political-even-handedness"
-            },
-            {
-              "title": "Reading Between the Prompts: How Stereotypes Shape LLM's Implicit Personalization",
-              "url": "https://aclanthology.org/2025.emnlp-main.1029/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ai-risks",
-      "title": "AI Risks and Mitigation",
-      "description": "Understanding and mitigating risks from advanced AI systems",
-      "sessions": [
-        {
-          "id": "ai-risks-mitigation",
-          "title": "AI Risks and Mitigation",
-          "core": [
-            {
-              "title": "Managing extreme AI risks amid rapid progress",
-              "url": "https://arxiv.org/abs/2310.17688"
-            },
-            {
-              "title": "Our updated Preparedness Framework",
-              "url": "https://openai.com/index/updating-our-preparedness-framework/"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "International AI Safety Report 2026",
-              "url": "https://arxiv.org/abs/2602.21012",
-              "note": "Focus on the Risks-Biological and chemical risks section"
-            },
-            {
-              "title": "Responsible Scaling Policy Updates",
-              "url": "https://www.anthropic.com/responsible-scaling-policy"
-            },
-            {
-              "title": "Google DeepMind strengthens the Frontier Safety Framework",
-              "url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/"
-            },
-            {
-              "title": "Environmental impact and net-zero pathways for sustainable AI servers in the USA",
-              "url": "https://www.nature.com/articles/s41893-025-01681-y"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "information-curation",
-      "title": "AI and Information Curation",
-      "description": "How AI reshapes search, ranking, and information access",
-      "sessions": [
-        {
-          "id": "information-curation-session",
-          "title": "AI and Information Curation",
-          "core": [
-            {
-              "title": "Generative Echo Chamber? Effects of LLM-Powered Search Systems on Diverse Information Seeking",
-              "url": "https://arxiv.org/abs/2402.05880"
-            },
-            {
-              "title": "Large Language Models are Zero-Shot Rankers for Recommender Systems",
-              "url": "https://doi.org/10.1007/978-3-031-56060-6_24"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "LLMs and Chatbots Are Not Good Technology for Information Access",
-              "url": "https://x.com/emilymbender/status/1853279181012094999",
-              "note": "Twitter thread by Emily Bender"
-            },
-            {
-              "title": "News Source Citing Patterns in AI Search Systems",
-              "url": "https://arxiv.org/abs/2507.05301"
-            },
-            {
-              "title": "Large Language Models for Information Retrieval: A Survey",
-              "url": "https://arxiv.org/abs/2308.07107"
-            },
-            {
-              "title": "Synthesizing scientific literature with retrieval-augmented language models",
-              "url": "https://www.nature.com/articles/s41586-025-10072-4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "misinformation",
-      "title": "Misinformation and Influence Campaigns",
-      "description": "AI-generated misinformation, synthetic media, and influence operations",
-      "sessions": [
-        {
-          "id": "misinformation-influence",
-          "title": "Misinformation and Influence Campaigns",
-          "core": [
-            {
-              "title": "How malicious AI swarms can threaten democracy",
-              "url": "https://www.science.org/doi/10.1126/science.adz1697"
-            },
-            {
-              "title": "Generative propaganda: Evidence of AI's impact from a state-backed disinformation campaign",
-              "url": "https://doi.org/10.1093/pnasnexus/pgaf083"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "Large language models can effectively convince people to believe conspiracies",
-              "url": "https://arxiv.org/abs/2601.05050"
-            },
-            {
-              "title": "As Good As A Coin Toss: Human detection of AI-generated images, videos, audio, and audiovisual stimuli",
-              "url": "https://arxiv.org/abs/2403.16760"
-            },
-            {
-              "title": "Characterizing AI-Generated Misinformation on Social Media",
-              "url": "https://arxiv.org/abs/2505.10266"
-            },
-            {
-              "title": "A Survey on Proactive Defense Strategies Against Misinformation in Large Language Models",
-              "url": "https://arxiv.org/abs/2507.05288"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "intellectual-property",
-      "title": "AI & Intellectual Property & Copyright",
-      "description": "AI's impact on intellectual property law, copyright, and licensing",
-      "sessions": [
+        },
         {
           "id": "intellectual-property-session",
           "title": "AI & Intellectual Property & Copyright",
