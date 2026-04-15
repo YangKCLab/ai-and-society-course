@@ -2,8 +2,8 @@
   "lastUpdated": "2026-04-15",
   "groups": [
     {
-      "id": "work-professions",
-      "title": "AI Transforming Work & Professions",
+      "id": "ai-science",
+      "title": "AI & Science",
       "sessions": [
         {
           "id": "science-production",
@@ -25,7 +25,7 @@
               "note": "Funding"
             },
             {
-              "title": "AI chatbots are sycophants \u2014 researchers say it's harming science",
+              "title": "AI chatbots are sycophants — researchers say it's harming science",
               "url": "https://www.nature.com/articles/d41586-025-03390-0",
               "note": "Sycophancy"
             },
@@ -45,7 +45,7 @@
               "note": "Peer review"
             },
             {
-              "title": "More than half of researchers now use AI for peer review \u2014 often against guidance",
+              "title": "More than half of researchers now use AI for peer review — often against guidance",
               "url": "https://www.nature.com/articles/d41586-025-04066-5",
               "note": "Peer review"
             }
@@ -117,7 +117,13 @@
               "note": "Chemistry"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "work-professions",
+      "title": "AI Transforming Work & Professions",
+      "sessions": [
         {
           "id": "ai-coding-tools",
           "title": "AI Coding",
@@ -244,6 +250,50 @@
           ]
         },
         {
+          "id": "labor-market-impact",
+          "title": "AI & Labor Market",
+          "core": [
+            {
+              "title": "GPTs are GPTs: Labor market impact potential of LLMs",
+              "url": "https://doi.org/10.1126/science.adj0998"
+            },
+            {
+              "title": "Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand",
+              "url": "https://doi.org/10.1016/j.jebo.2024.106845"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Anthropic Economic Index report: economic primitives",
+              "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+            },
+            {
+              "title": "No Great Equalizer: Experimental Evidence on Productivity Effects of Generative AI Use in the UK Labor Market",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4594466"
+            },
+            {
+              "title": "The Future of Jobs Report 2025",
+              "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+            },
+            {
+              "title": "AI Doesn't Reduce Work\u2014It Intensifies It",
+              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+              "note": "Blog post"
+            },
+            {
+              "title": "Andrew Ng on Job Market",
+              "url": "https://x.com/AndrewYNg/status/2021259884709413291",
+              "note": "Twitter post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-health",
+      "title": "AI & Health",
+      "sessions": [
+        {
           "id": "ai-healthcare-intro",
           "title": "Application of AI in Healthcare",
           "introduction": "For this session, we will focus on the application of AI in health care.",
@@ -344,44 +394,6 @@
             {
               "title": "\"Shaping ChatGPT into my Digital Therapist\": A thematic analysis of social media discourse on using generative artificial intelligence for mental health",
               "url": "https://doi.org/10.1177/20552076251351088"
-            }
-          ]
-        },
-        {
-          "id": "labor-market-impact",
-          "title": "AI & Labor Market",
-          "core": [
-            {
-              "title": "GPTs are GPTs: Labor market impact potential of LLMs",
-              "url": "https://doi.org/10.1126/science.adj0998"
-            },
-            {
-              "title": "Winners and losers of generative AI: Early Evidence of Shifts in Freelancer Demand",
-              "url": "https://doi.org/10.1016/j.jebo.2024.106845"
-            }
-          ],
-          "supporting": [
-            {
-              "title": "Anthropic Economic Index report: economic primitives",
-              "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
-            },
-            {
-              "title": "No Great Equalizer: Experimental Evidence on Productivity Effects of Generative AI Use in the UK Labor Market",
-              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4594466"
-            },
-            {
-              "title": "The Future of Jobs Report 2025",
-              "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
-            },
-            {
-              "title": "AI Doesn't Reduce Work\u2014It Intensifies It",
-              "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
-              "note": "Blog post"
-            },
-            {
-              "title": "Andrew Ng on Job Market",
-              "url": "https://x.com/AndrewYNg/status/2021259884709413291",
-              "note": "Twitter post"
             }
           ]
         }
