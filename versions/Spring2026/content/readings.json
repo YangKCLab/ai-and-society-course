@@ -532,7 +532,7 @@
             },
             {
               "title": "The Effect of Transparency on Students' Perceptions of AI Graders",
-              "url": "https://arxiv.org/pdf/2601.00765",
+              "url": "https://arxiv.org/abs/2601.00765",
               "note": "Transparency"
             }
           ]
@@ -627,8 +627,9 @@
               "url": "https://direct.mit.edu/coli/article/51/3/885/128621/Large-Language-Models-Are-Biased-Because-They-Are"
             },
             {
-              "title": "About Tracking AI",
-              "url": "https://trackingai.org/about"
+              "title": "Tracking AI",
+              "url": "https://trackingai.org/about",
+              "note": "Project that tracks the political opinions of AI systems."
             },
             {
               "title": "Measuring political bias in Claude",
@@ -689,10 +690,10 @@
           "core": [
             {
               "title": "Managing extreme AI risks amid rapid progress",
-              "url": "https://arxiv.org/abs/2310.17688"
+              "url": "https://www.science.org/doi/10.1126/science.adn0117"
             },
             {
-              "title": "Our updated Preparedness Framework",
+              "title": "Our (OpenAI) updated Preparedness Framework",
               "url": "https://openai.com/index/updating-our-preparedness-framework/"
             }
           ],
@@ -703,7 +704,7 @@
               "note": "Focus on the Risks-Biological and chemical risks section"
             },
             {
-              "title": "Responsible Scaling Policy Updates",
+              "title": "Anthropic's Responsible Scaling Policy",
               "url": "https://www.anthropic.com/responsible-scaling-policy"
             },
             {
@@ -747,10 +748,6 @@
               "title": "NIST AI RMF Generative AI Profile",
               "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
               "note": "NIST AI 600-1"
-            },
-            {
-              "title": "Our updated Preparedness Framework",
-              "url": "https://openai.com/index/updating-our-preparedness-framework/"
             },
             {
               "title": "New York regulations on AI",
