@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-15",
   "topics": [
     {
       "id": "science",
@@ -797,6 +797,45 @@
             {
               "title": "Synthesizing scientific literature with retrieval-augmented language models",
               "url": "https://www.nature.com/articles/s41586-025-10072-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misinformation",
+      "title": "Misinformation and Influence Campaigns",
+      "description": "AI-generated misinformation, synthetic media, and influence operations",
+      "sessions": [
+        {
+          "id": "misinformation-influence",
+          "title": "Misinformation and Influence Campaigns",
+          "core": [
+            {
+              "title": "How malicious AI swarms can threaten democracy",
+              "url": "https://www.science.org/doi/10.1126/science.adz1697"
+            },
+            {
+              "title": "Generative propaganda: Evidence of AI's impact from a state-backed disinformation campaign",
+              "url": "https://doi.org/10.1093/pnasnexus/pgaf083"
+            }
+          ],
+          "supporting": [
+            {
+              "title": "Large language models can effectively convince people to believe conspiracies",
+              "url": "https://arxiv.org/abs/2601.05050"
+            },
+            {
+              "title": "As Good As A Coin Toss: Human detection of AI-generated images, videos, audio, and audiovisual stimuli",
+              "url": "https://arxiv.org/abs/2403.16760"
+            },
+            {
+              "title": "Characterizing AI-Generated Misinformation on Social Media",
+              "url": "https://arxiv.org/abs/2505.10266"
+            },
+            {
+              "title": "A Survey on Proactive Defense Strategies Against Misinformation in Large Language Models",
+              "url": "https://arxiv.org/abs/2507.05288"
             }
           ]
         }
