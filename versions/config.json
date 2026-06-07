@@ -13,6 +13,7 @@
         "schedule": true,
         "readings": true,
         "resources": true,
+        "essays": true,
         "staff": true
       }
     },
@@ -28,6 +29,7 @@
         "schedule": true,
         "readings": false,
         "resources": false,
+        "essays": false,
         "staff": true
       }
     }

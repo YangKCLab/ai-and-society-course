@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { normalizeVersion } from '../composables/useVersion'
 
 import HomeWrapper from '../wrappers/HomeWrapper.vue'
+import Essays from '../pages/Essays.vue'
 import Staff from '../pages/Staff.vue'
 import Readings from '../pages/Readings.vue'
 
@@ -35,6 +36,7 @@ export const router = createRouter({
       path: '/:version',
       children: [
         { path: '', name: 'home', component: HomeWrapper },
+        { path: 'essays', name: 'essays', component: Essays },
         { path: 'staff', name: 'staff', component: Staff },
         { path: 'readings', name: 'readings', component: Readings },
       ],

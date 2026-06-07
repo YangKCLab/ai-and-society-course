@@ -1,0 +1,34 @@
+---
+author: Dhruv Kumar Singh
+order: 4
+---
+
+AI made me more capable and less competent at the same time.
+
+I began this course as someone who frequently relies on AI but paid little regard to its effects on me. I used AI to speed up my assignments, debug or generate code, and answer daily questions. In plain words, I was passively using AI.
+
+Initially, I used ChatGPT for assignments and random daily stuff. Professor Yang once mentioned that he found Claude was better. Both were $20 anyway, and I was curious enough to try it. Just a week into using Claude, I felt like the tone was way better. It was more to the point with no fillers. Once, I was asking ChatGPT about a mental health issue, and it kept repeating "You're not crazy, it's totally normal" again and again. I was like Bro, I never said I was crazy, only YOU are saying that. Happy to switch so far.
+
+I also started using coding agents this semester, beginning with Cursor and then moving to Claude Code. Work that used to take me hours now takes only a few minutes. When an AI handles the code, coding is no longer the hard part. Real work is design, product decisions, and debugging.
+
+Before my first presentation for the class, I was facing a different problem. I had been avoiding public speaking my whole life. I wanted to practice, but there wasn't anyone free at home. So I went to ChatGPT, gave it all my slides, and started a voice chat and presented my slides one by one while asking for feedback after each. It was weird talking to an AI. But also reassuring that there is someone to talk to who would listen without judging you.  In contrast was my other experience with Claude. I was having a late-night chat with Claude on sleep, lucid dreaming, and mental health concerns. By the end, I was satisfied with the talk and was going to sleep. But I noticed that it had been agreeing to everything I said throughout the conversation. So I asked it "You have been agreeing with everything I've been saying." It confirmed it and said AI systems are designed to be conversational, then went through our conversation and flagged 3–4 things as concerns that it had framed as normal earlier. What surprised me was that I was happy with the validation and didn't really get the answer that I needed. The worst part was that I hadn't noticed that until I thought to ask.
+
+This is directly what we learnt in class — AI sycophancy. These chatbots are engineered to give the most average and the most acceptable response from their training data, which means they'll agree even when they shouldn't. Before this semester, I would've gone back to sleep satisfied with the answer. But having learnt about this in class made me aware of what's happening. Now I know it can lie to my face.
+
+The concept that changed me the most was cognitive offloading. I had been using AI to fast-track my work. My process was to get an answer, understand it, and move on. It was efficient. But efficiency does not equal skill development, and I've learnt it the hard way.
+
+During my Systems Programming midterm, there was a tricky question that I was able to solve eventually, but it took longer than it should have. Had it been two or three years ago, I would have spotted the pattern faster. I had given a presentation on AI's impact on education outcomes just weeks before the exam. But it didn't hit me until I was sitting in the exam room and realizing my own pattern recognition wasn't what it used to be. The irony was that I had literally presented the same topic, and I didn't see it coming for myself.
+
+What scares me the most is how one can never notice cognitive offloading happening. You
+can feel productive and capable, but the decline is gradual enough that you won't catch it
+without someone pointing it out to you. That's what this class gave me: awareness of these
+issues. Now I try to attempt things myself before going to AI. Sometimes when I don't have
+time, I still use AI, but now it's a conscious choice, not something I default to.
+
+Before coming for CS grad, I worked at Ericsson as a DevOps Engineer. AI was already being used and integrated into the ecosystem when I was there. Stuff like writing GitHub Actions workflows, generating config files, building pipelines, and other repetitive pattern- based work that used to take hours were now being done with the help of AI. I felt relieved that I didn't need to do the boring work again and again. But there was also a threat, as some of the work I did every day was being done by AI within seconds. There were parts which AI couldn't do, like understanding business context, designing systems around them, or debugging a prod incident at 3am when context was too specific. That work was still mine.  But as I sit through the course, I realize that boring, repetitive work builds up the intuition that advanced roles need. Having worked in this field before and after AI was embraced, I know how important it is for intuition to build up. If new engineers hand over work like writing pipelines to AI without ever writing one from scratch, they will never develop the judgement to know when the generated work is wrong. I don't think AI is gonna replace DevOps, but it's gonna reshape it.
+
+Knowing where AI's output is trustworthy is more valuable than knowing how to use it.  That insight came directly from learning about hallucinations and sycophancy from this class. Earlier, I used to treat AI output as trustworthy unless something was obviously wrong about it. AI is a tool to use, not to trust. I remember once I gave AI my research paper names and asked it to give the authors for references — turns out every one of them were wrong. This mistake cost me time and gave me a lesson that no lecture could.
+
+My dad was skeptical of AI when it first came out. He thought it was overhyped and a conspiracy by companies to grab user data. After three years of avoiding AI, when he used it recently, he was shocked by how powerful the tool was. It reminded me of how people reacted to smartphones initially. Most people dismissed it as a toy, but now people cannot live without the convenience it provides. I remember googling a headache as a child and panicking when it said I had a brain tumor. AI would have handled this question calmly. The AI era has begun, and there is no stopping it. Not using it means accepting a productivity gap that's only gonna widen. To any well-wisher, I would say: use it consciously, don't depend on it, and don't let it think for you.
+
+Now that I think of it, my dad avoided AI for years and was shocked when he finally used it. I used AI for years and was shocked when I questioned it. We started at opposite ends and ended up at the same place. I used to think knowing how to use AI is a skill. Now I think it's using AI and knowing when to stop.
