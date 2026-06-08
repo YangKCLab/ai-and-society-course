@@ -16,7 +16,11 @@ def main():
     with open(config_path) as f:
         config = json.load(f)
 
-    required_files = ['schedule.json', 'resources.json', 'staff.json', 'home.json', 'syllabus.pdf']
+    # Files required in every version's content/ directory.
+    # Note: schedule lives in an external Google Sheet; resources is not used.
+    # syllabus.pdf and essays/ are warn-only (may not be ready at validation time).
+    required_files = ['home.json', 'staff.json', 'readings.json']
+    warn_only_files = ['syllabus.pdf']
     errors = []
     warnings = []
 
@@ -49,15 +53,13 @@ def main():
         for required_file in required_files:
             file_path = content_dir / required_file
             if not file_path.exists():
-                if required_file == 'syllabus.pdf':
-                    warnings.append(f"Missing {required_file} in {version_id} (compile locally)")
-                else:
-                    errors.append(f"Missing {required_file} in {version_id}")
+                errors.append(f"Missing {required_file} in {version_id}")
 
-        # Check demos directory
-        demos_dir = version_dir / 'demos'
-        if not demos_dir.exists():
-            warnings.append(f"Demos directory not found: {demos_dir}")
+        # Check warn-only files
+        for warn_file in warn_only_files:
+            file_path = content_dir / warn_file
+            if not file_path.exists():
+                warnings.append(f"Missing {warn_file} in {version_id} (compile and copy when ready)")
 
     # Print results
     if errors:
